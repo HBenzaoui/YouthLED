@@ -1,5 +1,8 @@
 /*==========================================
     Default Them
     ----------------------------------------
-    Font: Relway & Open Sans
+    Font: Raleway & Open Sans
 ==========================================*/
+h1 {
+  font-family: "Raleway", sans-serif;
+}
