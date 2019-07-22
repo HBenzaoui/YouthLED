@@ -51,9 +51,15 @@
   height: auto;
   width: auto;
   z-index: -1;
+  /*This is when the video fall to play*/
+  background: url(/video/solo.jpg) no-repeat;
+  /*This is when the video fall to play*/
+  background-size: cover;
   transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translateX(-50%) translateY(-50%);
   -moz-transform: translateX(-50%) translateY(-50%);
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
 }
+
+#home-overlay {}
