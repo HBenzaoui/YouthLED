@@ -17,12 +17,23 @@
 ==========================================*/
 
 #preloader {
-  background-color: red;
+  background-color: #f4f4f4;
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: 9999;
+}
 
+#status {
+  background-image: url('/img/preloader/index.curved-bar-spinner.svg');
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
 }
