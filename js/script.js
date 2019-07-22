@@ -4,5 +4,7 @@
 
 $(window).on('load', function() {
   $('#status').fadeOut();
-  $('#preloader').fadeOut();
+  $('#preloader')
+    .delay(350)
+    .fadeOut();
 });
