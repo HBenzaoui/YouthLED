@@ -124,4 +124,13 @@ section {
 
 #home-heading h1 {
   color: #fff;
+  font-weight: 100;
+  margin: 0;
+  display: inline-block;
+}
+
+#home-heading h1 span {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  margin: 0;
 }
