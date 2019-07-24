@@ -1,7 +1,7 @@
 /*==========================================
     Default Them
     ----------------------------------------
-    Font: Raleway & Open Sans
+    Font: Raleway & Open Sans & Tajawal
     ----------------------------------------
     Colors:
         Sunglow:                #FAC63D
@@ -130,7 +130,7 @@ section {
 }
 
 #home-heading h1 span {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 100;
+  font-family: "Tajawal", sans-serif;
+  font-weight: 200;
   margin: 0;
 }
