@@ -16,7 +16,7 @@
 |   |   |   |   HTML, body   |   |   |   |               
 ==========================================*/
 
-htm,
+html,
 body {
   height: 100%;
 }
@@ -78,6 +78,7 @@ section {
 ==========================================*/
 #home {
   background: none;
+  height: 100%;
 }
 
 #home-bg-video {
