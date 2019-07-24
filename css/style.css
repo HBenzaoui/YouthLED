@@ -140,3 +140,7 @@ section {
   color: #FAC63D;
   font-weight: 500 !important;
 }
+
+#home-text p {
+  color: #fff;
+}
