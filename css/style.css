@@ -116,3 +116,7 @@ section {
   height: 100%;
   display: table;
 }
+
+#home-content-inner {
+  display: table-cell;
+}
