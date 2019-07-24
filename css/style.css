@@ -119,4 +119,5 @@ section {
 
 #home-content-inner {
   display: table-cell;
+  vertical-align: middle;
 }
