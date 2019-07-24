@@ -43,6 +43,7 @@ p {
 
 section {
   background: #fff;
+  overflow: hidden;
 }
 
 
