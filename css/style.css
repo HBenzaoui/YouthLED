@@ -121,3 +121,7 @@ section {
   display: table-cell;
   vertical-align: middle;
 }
+
+#home-heading h1 {
+  color: #fff;
+}
