@@ -162,13 +162,42 @@ section {
   text-transform: uppercase;
   margin: 0 6px;
   padding: 12px 40px 12px 40px;
-  transform: all .5s;
-  -webkit-transform: all .5s;
-  -moz-transform: all .5s;
-  -ms-transform: all .5s;
-  -o-transform: all .5s;
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
 }
 
 .btn-home {
   color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn-home:hover,
+.btn-home:focus {
+  color: #212226;
+  background: #FAC63D;
+  border: 1px solid #FAC63D;
+}
+
+/*==========================================
+|   |   |   |   Arrow Down   |   |   |   |               
+==========================================*/
+#arrow-down {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  color: #fff;
+  font-size: 32px;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  margin-left: -16px;
+  z-index: 1;
+}
+
+#arrow-down:hover,
+#arrow-down:focus {
+  color: #FAC63D;
 }
