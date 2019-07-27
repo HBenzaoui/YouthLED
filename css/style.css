@@ -132,13 +132,13 @@ section {
 #home-heading h1 span {
   /* color: #FAC63D; */
   font-family: "Tajawal", sans-serif;
-  font-weight: 200;
+  font-weight: 100;
   margin: 0;
 }
 
 #ar-youth {
   color: #FAC63D;
-  font-weight: 500 !important;
+  font-weight: 300 !important;
 }
 
 #home-text p {
@@ -200,4 +200,53 @@ section {
 #arrow-down:hover,
 #arrow-down:focus {
   color: #FAC63D;
+}
+
+/*==========================================
+|   |   |   |   Content Boxes   |   |   |   |               
+==========================================*/
+.content-box-lg {
+  padding: 120px 0;
+}
+
+/*==========================================
+|   |   |   |   Vertical Heading   |   |   |   |               
+==========================================*/
+.vertical-heading h5 {
+  color: #FAC63D;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  word-spacing: 9px;
+  display: inline-block;
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  position: relative;
+  top: 65px;
+  left: -60px;
+}
+
+.vertical-heading h2 {
+  margin: 0 0 0 35px;
+  font-size: 42px;
+  font-weight: 100;
+  line-height: 45px;
+}
+
+/*==========================================
+|   |   |   |   About 01   |   |   |   |               
+==========================================*/
+#about-right p:first-child {
+  margin-bottom: 30px;
+}
+
+#about-buttom {
+  margin-top: 60px;
+}
+
+#about-buttom img {
+  margin: 0 auto;
 }
