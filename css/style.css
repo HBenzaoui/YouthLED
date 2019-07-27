@@ -266,6 +266,11 @@ section {
   background: #fff;
   padding: 80px 30px;
   box-shadow: 0 0 10px rgba(0, 0, 0, .06);
+  transition: all 500ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
 }
 
 .about-item i {
@@ -275,7 +280,7 @@ section {
 
 .about-item h3 {
   font-size: 24px;
-  margin-bottom: 10px;
+  margin: 10px;
 
 }
 
@@ -290,4 +295,40 @@ section {
 
 .about-item p {
   margin-top: 20px;
+}
+
+/* Hover changing */
+
+.about-item:hover {
+  background: #FAC63D;
+  cursor: pointer;
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p {
+  color: #fff;
+}
+
+.about-item:hover hr {
+  background-color: #fff;
+}
+
+.about-item:hover i {
+  transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
+}
+
+/* Smooth transition */
+.about-item,
+.about-item i,
+.about-item hr {
+  transition: all 500ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
 }
