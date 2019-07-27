@@ -4,8 +4,8 @@
 
 //This is to make sure the whole side is loaded
 $(window).on('load', function() {
-  $('#status').fadeOut();
+  $('#status').fadeOut('slow');
   $('#preloader')
     .delay(350)
-    .fadeOut();
+    .fadeOut('slow');
 });
