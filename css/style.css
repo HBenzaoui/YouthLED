@@ -31,11 +31,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif
+  font-family: 'Raleway', sans-serif;
 }
 
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
@@ -45,7 +45,6 @@ section {
   background: #fff;
   overflow: hidden;
 }
-
 
 /*==========================================
 |   |   |   |   Preloader   |   |   |   |               
@@ -129,15 +128,22 @@ section {
   display: inline-block;
 }
 
+#en-youth {
+  color: #fac63d !important;
+  font-family: 'Raleway', sans-serif !important;
+  font-size: 40px !important;
+  font-weight: 300 !important;
+}
+
 #home-heading h1 span {
   /* color: #FAC63D; */
-  font-family: "Tajawal", sans-serif;
+  font-family: 'Tajawal', sans-serif;
   font-weight: 100;
   margin: 0;
 }
 
 #ar-youth {
-  color: #FAC63D;
+  color: #fac63d;
   font-weight: 300 !important;
 }
 
@@ -152,7 +158,7 @@ section {
 |   |   |   |   Buttons   |   |   |   |               
 ==========================================*/
 .btn-general {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   border-radius: 28px;
   -webkit-border-radius: 28px;
   -moz-border-radius: 28px;
@@ -162,11 +168,11 @@ section {
   text-transform: uppercase;
   margin: 0 6px;
   padding: 12px 40px 12px 40px;
-  transition: all .5s;
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  -ms-transition: all .5s;
-  -o-transition: all .5s;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
 }
 
 .btn-home {
@@ -177,8 +183,8 @@ section {
 .btn-home:hover,
 .btn-home:focus {
   color: #212226;
-  background: #FAC63D;
-  border: 1px solid #FAC63D;
+  background: #fac63d;
+  border: 1px solid #fac63d;
 }
 
 /*==========================================
@@ -199,7 +205,7 @@ section {
 
 #arrow-down:hover,
 #arrow-down:focus {
-  color: #FAC63D;
+  color: #fac63d;
 }
 
 /*==========================================
@@ -217,7 +223,7 @@ section {
 |   |   |   |   Vertical Heading   |   |   |   |               
 ==========================================*/
 .vertical-heading h5 {
-  color: #FAC63D;
+  color: #fac63d;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
@@ -265,7 +271,7 @@ section {
 .about-item {
   background: #fff;
   padding: 80px 30px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .06);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
   transition: all 500ms ease-in-out;
   -webkit-transition: all 500ms ease-in-out;
   -moz-transition: all 500ms ease-in-out;
@@ -281,16 +287,14 @@ section {
 .about-item h3 {
   font-size: 24px;
   margin: 10px;
-
 }
 
 .about-item hr {
-  background-color: #FAC63D;
+  background-color: #fac63d;
   height: 2px;
   width: 50px;
   margin: 0 auto;
   border: none;
-
 }
 
 .about-item p {
@@ -300,7 +304,7 @@ section {
 /* Hover changing */
 
 .about-item:hover {
-  background: #FAC63D;
+  background: #fac63d;
   cursor: pointer;
 }
 
