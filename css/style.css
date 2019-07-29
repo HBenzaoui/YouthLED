@@ -344,4 +344,6 @@ section {
   min-height: 160px;
 }
 
-#team-memebers {}
+#team-memebers {
+  margin: 8px;
+}
