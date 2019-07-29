@@ -340,4 +340,6 @@ section {
 /*==========================================
 |   |   |   |   Team   |   |   |   |               
 ==========================================*/
-#team-left .vertical-heading {}
+#team-left .vertical-heading {
+  min-height: 160px;
+}
