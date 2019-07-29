@@ -349,5 +349,7 @@ section {
 }
 
 .team-member-overlay {
-  background-color: rgba(33, 34, 28, .9)
+  background-color: rgba(33, 34, 28, .9);
+  position: absolute;
+
 }
