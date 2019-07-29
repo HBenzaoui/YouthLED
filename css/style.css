@@ -348,4 +348,6 @@ section {
   margin: 8px;
 }
 
-.team-member-overlay {}
+.team-member-overlay {
+  background: #212226
+}
