@@ -38,6 +38,6 @@ $(function() {
 ==========================================*/
 $(function() {
   $('.progress-bar').each(function() {
-    $(this).animate({width:});
+    $(this).animate({ width: $(this).attr() });
   });
 });
