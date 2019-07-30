@@ -412,3 +412,5 @@ ul.social-list li a {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
+
+ul.social-list li:nth-child(1) {}
