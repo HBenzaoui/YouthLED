@@ -440,8 +440,6 @@ ul.social-list li:nth-child(3) a:hover {
   color: #212226;
   font-size: 32px !important;
   background: none;
-  /* margin: 0 !important; */
-  /* padding: 0 !important; */
 }
 
 .owl-theme .owl-nav [class*=owl-]:hover {
@@ -456,14 +454,41 @@ ul.social-list li:nth-child(3) a:hover {
 /*==========================================
 |   |   |   |   Progress Bars   |   |   |   |               
 ==========================================*/
-.pbars {
-  margin-top: 40px;
+.skill {
+  margin-bottom: 20px;
 }
 
-.pbars h2 {
-  margin: 10px 0;
+.skill h4 {
+  line-height: 62px;
+  margin: 0;
+  font-weight: normal;
 }
 
-.pbars .col-md-6 {
-  margin: 10px 0;
+.progress {
+  height: 25px;
+  color: #fac63d;
+  background: #efefef;
+  border-radius: 0;
+  overflow: visible;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.progress-bar {
+  background-color: #fac63d;
+  position: relative;
+}
+
+.progress-bar span {
+  font-size: 11px;
+  font-weight: 100;
+  font-family: "Open Sans", sans-serif;
+  background: #212226;
+  margin: 0;
+  padding: 3px;
+  position: absolute;
+  left: 97%;
+  top: -25px;
 }
