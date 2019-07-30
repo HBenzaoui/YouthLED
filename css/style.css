@@ -432,3 +432,20 @@ ul.social-list li:nth-child(3) a:hover {
   background: #0077B5;
   border-color: transparent;
 }
+
+.owl-theme .owl-nav [class*=owl-] {
+  color: #212226;
+  font-size: 32px !important;
+  background: none;
+  /* margin: 0 !important; */
+  /* padding: 0 !important; */
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+  color: #fac63d;
+  background: none;
+}
+
+.owl-theme .owl-nav [class*=owl-]:focus {
+  outline: none;
+}
