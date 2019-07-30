@@ -452,3 +452,18 @@ ul.social-list li:nth-child(3) a:hover {
 .owl-theme .owl-nav [class*=owl-]:focus {
   outline: none;
 }
+
+/*==========================================
+|   |   |   |   Progress Bars   |   |   |   |               
+==========================================*/
+.pbars {
+  margin-top: 40px;
+}
+
+.pbars h2 {
+  margin: 10px 0;
+}
+
+.pbars .col-md-6 {
+  margin: 10px 0;
+}
