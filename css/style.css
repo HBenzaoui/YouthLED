@@ -411,6 +411,11 @@ ul.social-list li a {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
 }
 
 ul.social-list li:nth-child(1) a:hover {
