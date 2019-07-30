@@ -411,14 +411,24 @@ ul.social-list li a {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  transition: all .5s;
-  -webkit-transition: all .5s;
-  -moz-transition: all .5s;
-  -ms-transition: all .5s;
-  -o-transition: all .5s;
+  transition: all 500ms linear;
+  -webkit-transition: all 500ms linear;
+  -moz-transition: all 500ms linear;
+  -ms-transition: all 500ms linear;
+  -o-transition: all 500ms linear;
 }
 
 ul.social-list li:nth-child(1) a:hover {
   background: #3b5998;
+  border-color: transparent;
+}
+
+ul.social-list li:nth-child(2) a:hover {
+  background: #1EA2F3;
+  border-color: transparent;
+}
+
+ul.social-list li:nth-child(3) a:hover {
+  background: #0077B5;
   border-color: transparent;
 }
