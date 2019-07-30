@@ -413,4 +413,4 @@ ul.social-list li a {
   -o-border-radius: 50%;
 }
 
-ul.social-list li:nth-child(1) {}
+ul.social-list li:nth-child(1) a:hover {}
