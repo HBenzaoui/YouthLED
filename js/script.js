@@ -38,6 +38,11 @@ $(function() {
 ==========================================*/
 $(function() {
   $('.progress-bar').each(function() {
-    $(this).animate({ width: $(this).attr('aria-valuenow') });
+    $(this).animate(
+      {
+        width: $(this).attr('aria-valuenow') + '%'
+      },
+      500
+    );
   });
 });
