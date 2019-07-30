@@ -490,5 +490,15 @@ ul.social-list li:nth-child(3) a:hover {
   padding: 3px;
   position: absolute;
   left: 97%;
-  top: -25px;
+  top: -35px;
+}
+
+.progress-bar span::before {
+  content: "";
+  border-top: 8px solid #212226;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  position: absolute;
+  bottom: -6px;
+  left: 23%;
 }
