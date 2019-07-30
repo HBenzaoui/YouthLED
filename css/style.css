@@ -433,6 +433,9 @@ ul.social-list li:nth-child(3) a:hover {
   border-color: transparent;
 }
 
+/*==========================================
+|   |   |   |   Slider Buttons   |   |   |   |               
+==========================================*/
 .owl-theme .owl-nav [class*=owl-] {
   color: #212226;
   font-size: 32px !important;
