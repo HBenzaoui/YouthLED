@@ -510,8 +510,21 @@ ul.social-list li:nth-child(3) a:hover {
 #statment {
   background: url("../img/tech/tech-quote.jpg") no-repeat fixed center;
   background-size: cover;
-  /* background-repeat: no-repeat; */
-  /* background-position: center; */
-  /* background-attachment: fixed; */
+}
 
+#statment .content-box-lg {
+  background: rgba(0, 0, 0, 0.3)
+}
+
+#tech-statment h3 {
+  color: #fff;
+  font-size: 28px;
+  line-height: 45px;
+}
+
+#tech-statment p {
+  color: #fac63d;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  margin-top: 8px;
 }
