@@ -37,11 +37,8 @@ $(function() {
 |   |   |   |   Progress Bars   |   |   |   |               
 ==========================================*/
 $(function() {
-  var waypoint = new Waypoint({
-    element: document.getElementById('progress-elements'),
-    handler: function() {
-      notify('Basic waypoint triggered');
-    }
+  $('#progress-elements').watpoint(function() {
+    notify('Basic waypoint triggered');
   });
 
   // $('.progress-bar').each(function() {
