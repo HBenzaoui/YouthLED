@@ -37,19 +37,19 @@ $(function() {
 |   |   |   |   Progress Bars   |   |   |   |               
 ==========================================*/
 $(function() {
-  $('.progress-bar').each(function() {
-    $(this).animate(
-      {
-        width: $(this).attr('aria-valuenow') + '%'
-      },
-      500
-    );
+  var waypoint = new Waypoint({
+    element: document.getElementById('progress-elements'),
+    handler: function() {
+      notify('Basic waypoint triggered');
+    }
   });
-});
 
-var waypoint = new Waypoint({
-  element: document.getElementById('basic-waypoint'),
-  handler: function() {
-    notify('Basic waypoint triggered');
-  }
+  // $('.progress-bar').each(function() {
+  //   $(this).animate(
+  //     {
+  //       width: $(this).attr('aria-valuenow') + '%'
+  //     },
+  //     500
+  //   );
+  // });
 });
