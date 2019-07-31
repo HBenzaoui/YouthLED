@@ -37,10 +37,13 @@ $(function() {
 |   |   |   |   Progress Bars   |   |   |   |               
 ==========================================*/
 $(function() {
-  $('#progress-elements').waypoint(function() {
-    alert('Hello');
-    this.destroy();
-  });
+  $('#progress-elements').waypoint(
+    function() {
+      alert('Hello');
+      this.destroy();
+    },
+    { offset: 'bottom-in-view' }
+  );
 
   // $('.progress-bar').each(function() {
   //   $(this).animate(
