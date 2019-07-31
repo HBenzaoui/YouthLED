@@ -502,3 +502,11 @@ ul.social-list li:nth-child(3) a:hover {
   bottom: -6px;
   left: 23%;
 }
+
+/*==========================================
+|   |   |   |   Statment   |   |   |   |
+==========================================*/
+
+#statment {
+  background: url("../img/tech/tech-quote.jpg")
+}
