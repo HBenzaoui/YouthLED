@@ -51,13 +51,4 @@ $(function() {
     },
     { offset: 'bottom-in-view' }
   );
-
-  // $('.progress-bar').each(function() {
-  //   $(this).animate(
-  //     {
-  //       width: $(this).attr('aria-valuenow') + '%'
-  //     },
-  //     500
-  //   );
-  // });
 });
