@@ -508,5 +508,10 @@ ul.social-list li:nth-child(3) a:hover {
 ==========================================*/
 
 #statment {
-  background: url("../img/tech/tech-quote.jpg")
+  background: url("../img/tech/tech-quote.jpg") no-repeat fixed center;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  /* background-position: center; */
+  /* background-attachment: fixed; */
+
 }
