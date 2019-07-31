@@ -39,7 +39,14 @@ $(function() {
 $(function() {
   $('#progress-elements').waypoint(
     function() {
-      alert('Hello');
+      $('.progress-bar').each(function() {
+        $(this).animate(
+          {
+            width: $(this).attr('aria-valuenow') + '%'
+          },
+          500
+        );
+      });
       this.destroy();
     },
     { offset: 'bottom-in-view' }
