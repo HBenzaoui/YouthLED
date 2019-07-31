@@ -39,6 +39,7 @@ $(function() {
 $(function() {
   $('#progress-elements').waypoint(function() {
     alert('Hello');
+    this.destroy();
   });
 
   // $('.progress-bar').each(function() {
