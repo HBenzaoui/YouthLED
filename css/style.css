@@ -220,7 +220,7 @@ section {
 }
 
 /*==========================================
-|   |   |   |   Vertical Heading   |   |   |   |               
+|   |   |   |   Vertical/horizontal Heading   |   |   |   |               
 ==========================================*/
 .vertical-heading h5 {
   color: #fac63d;
@@ -241,6 +241,10 @@ section {
 
 .vertical-heading h2 {
   margin: 0 0 0 35px;
+}
+
+.vertical-heading h2,
+.horizontal-heading h2 {
   font-size: 42px;
   font-weight: 100;
   line-height: 45px;
@@ -259,11 +263,7 @@ section {
 }
 
 .horizontal-heading h2 {
-  font-size: 42px;
-  font-weight: 100;
-  line-height: 45px;
   margin: 0;
-
 }
 
 /*==========================================
@@ -551,3 +551,53 @@ ul.social-list li:nth-child(3) a:hover {
 /*==========================================
 |   |   |   |   Projects 01  |   |   |   |
 ==========================================*/
+#projects-01 img {
+  margin: 60px 0;
+}
+
+.project {
+  margin: 35px 0;
+}
+
+.project:hover {
+  cursor: pointer;
+}
+
+.project .icon {
+  font-size: 42px;
+  margin: 0;
+  transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  -o-transition: all .3s linear;
+}
+
+.project:hover .icon {
+  color: #fac63d;
+  transform: translateX(-20px);
+  -webkit-transform: translateX(-20px);
+  -moz-transform: translateX(-20px);
+  -ms-transform: translateX(-20px);
+  -o-transform: translateX(-20px);
+}
+
+.project h5 {
+  font-size: 12px;
+  color: #fac63d;
+  text-transform: uppercase;
+  margin: 0 0 6px 0;
+}
+
+.project:hover h5 {
+  color: #212226;
+}
+
+.project h4 {
+  font-size: 24px;
+  margin: 0 0 8px 0;
+}
+
+.project p {
+  line-height: normal;
+}
