@@ -246,6 +246,26 @@ section {
   line-height: 45px;
 }
 
+.horizontal-heading {
+  margin-bottom: 80px;
+}
+
+.horizontal-heading h5 {
+  font-size: 16px;
+  color: #fac63d;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.horizontal-heading h2 {
+  font-size: 42px;
+  font-weight: 100;
+  line-height: 45px;
+  margin: 0;
+
+}
+
 /*==========================================
 |   |   |   |   About 01   |   |   |   |               
 ==========================================*/
@@ -506,7 +526,6 @@ ul.social-list li:nth-child(3) a:hover {
 /*==========================================
 |   |   |   |   Statment   |   |   |   |
 ==========================================*/
-
 #statment {
   background: url("../img/tech/tech-quote.jpg") no-repeat fixed center;
   background-size: cover;
@@ -528,3 +547,7 @@ ul.social-list li:nth-child(3) a:hover {
   font-family: "Raleway", sans-serif;
   margin-top: 8px;
 }
+
+/*==========================================
+|   |   |   |   Projects 01  |   |   |   |
+==========================================*/
