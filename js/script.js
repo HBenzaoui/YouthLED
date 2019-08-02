@@ -52,3 +52,13 @@ $(function() {
     { offset: 'bottom-in-view' }
   );
 });
+
+/*==========================================
+|   |   |   |   Responsive Tabs   |   |   |   |               
+==========================================*/
+$(function() {
+  $('#projects-tabs').responsiveTabs({
+    startCollapsed: 'accordion',
+    animation: 'slide'
+  });
+});
