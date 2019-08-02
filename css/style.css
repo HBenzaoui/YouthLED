@@ -187,6 +187,19 @@ section {
   border: 1px solid #fac63d;
 }
 
+.btn-yellow {
+  color: #fff;
+  border: 1px solid #fac63d;
+  background-color: #fac63d;
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus {
+  color: #fff;
+  background: #212226;
+  border: 1px solid #212226;
+}
+
 /*==========================================
 |   |   |   |   Arrow Down   |   |   |   |               
 ==========================================*/
@@ -600,4 +613,74 @@ ul.social-list li:nth-child(3) a:hover {
 
 .project p {
   line-height: normal;
+}
+
+/*==========================================
+|   |   Projects 02 (Responsive Tabs)  |   
+==========================================*/
+#projects-02 {
+  background: #F4F4F4
+}
+
+#projects-tabs ul {
+  margin-bottom: 40px;
+}
+
+#projects-tabs ul li {
+  color: #fac63d;
+  padding: 5px 30px;
+}
+
+#projects-tabs ul li a {
+  color: #212226;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 0;
+  text-decoration: none;
+}
+
+#projects-tabs ul li.r-tabs-state-active a {
+  color: #fac63d;
+  font-weight: 700;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #fac63d;
+  transition: border-bottom 300ms linear;
+  -webkit-transition: border-bottom 300ms linear;
+  -moz-transition: border-bottom 300ms linear;
+  -ms-transition: border-bottom 300ms linear;
+  -o-transition: border-bottom 300ms linear;
+}
+
+.project-tab .col-md-6 {
+  padding: 0;
+}
+
+.project-tab img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.project-tab .tab-bg {
+  background: #fff;
+  padding: 59px 30px;
+  min-height: 470px;
+}
+
+.project-tab h2 {
+  font-size: 48px;
+  color: #bbb;
+  margin-bottom: 20px;
+  font-weight: 100;
+}
+
+.project-tab h3 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.project-tab p {
+  line-height: 24px;
+  margin-bottom: 30px;
 }
