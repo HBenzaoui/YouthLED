@@ -58,7 +58,7 @@ $(function() {
 ==========================================*/
 $(function() {
   $('#projects-tabs').responsiveTabs({
-    startCollapsed: 'accordion',
+    // startCollapsed: 'accordion',
     animation: 'slide'
   });
 });
