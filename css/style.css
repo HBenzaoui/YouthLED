@@ -729,4 +729,9 @@ ul.social-list li:nth-child(3) a:hover {
 #isotope-filters button.active span {
   color: #fac63d;
   border-bottom: 3px solid #fac63d;
+  transition: border-bottom 300ms linear;
+  -webkit-transition: border-bottom 300ms linear;
+  -moz-transition: border-bottom 300ms linear;
+  -ms-transition: border-bottom 300ms linear;
+  -o-transition: border-bottom 300ms linear;
 }
