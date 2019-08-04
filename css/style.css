@@ -735,3 +735,6 @@ ul.social-list li:nth-child(3) a:hover {
   -ms-transition: border-bottom 300ms linear;
   -o-transition: border-bottom 300ms linear;
 }
+
+/* Zoom effect */
+.portfolio-item img {}
