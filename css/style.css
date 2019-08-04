@@ -743,6 +743,11 @@ ul.social-list li:nth-child(3) a:hover {
 .portfolio-item img {
   width: 100%;
   height: auto;
+  transition: transform .5s ease;
+  -webkit-transition: transform .5s ease;
+  -moz-transition: transform .5s ease;
+  -ms-transition: transform .5s ease;
+  -o-transition: transform .5s ease;
 }
 
 .portfolio-item:hover img {
