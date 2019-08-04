@@ -737,4 +737,7 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 /* Zoom effect */
-.portfolio-item img {}
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+}
