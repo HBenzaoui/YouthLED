@@ -3,7 +3,7 @@
 ==========================================*/
 
 //This is to make sure the whole side is loaded
-$(window).on('load', function() {
+$(window).on('load', function () {
   $('#status').fadeOut('slow');
   $('#preloader')
     .delay(350)
@@ -13,7 +13,7 @@ $(window).on('load', function() {
 /*==========================================
 |   |   |   |   Team   |   |   |   |               
 ==========================================*/
-$(function() {
+$(function () {
   $('#team-memebers').owlCarousel({
     items: 2,
     // margin: 15,
@@ -36,29 +36,57 @@ $(function() {
 /*==========================================
 |   |   |   |   Progress Bars   |   |   |   |               
 ==========================================*/
-$(function() {
+$(function () {
   $('#progress-elements').waypoint(
-    function() {
-      $('.progress-bar').each(function() {
-        $(this).animate(
-          {
+    function () {
+      $('.progress-bar').each(function () {
+        $(this).animate({
             width: $(this).attr('aria-valuenow') + '%'
           },
           800
         );
       });
       this.destroy();
-    },
-    { offset: 'bottom-in-view' }
+    }, {
+      offset: 'bottom-in-view'
+    }
   );
 });
 
 /*==========================================
 |   |   |   |   Responsive Tabs   |   |   |   |               
 ==========================================*/
-$(function() {
+$(function () {
   $('#projects-tabs').responsiveTabs({
     // startCollapsed: 'accordion',
     animation: 'slide'
+  });
+});
+
+/*==========================================
+|   |   |   |   Portfolio   |   |   |   |               
+==========================================*/
+$(window).on('load', function () {
+
+  // Inisiliaze Isotope
+  $("#isotope-container").isotope({
+    // options
+  });
+
+  // Filter item on button click
+  $('#isotope-filters').on('click', 'button', function () {
+
+    // get filter value
+    var filterValue = $(this).attr('data-filter');
+
+    // fillter portfolio
+    $('#isotope-container').isotope({
+      filter: filterValue
+    });
+
+    // active button
+    $('#isotope-filters').find('.active').removeClass('active')
+    $(this).addClass('active');
+
   });
 });
