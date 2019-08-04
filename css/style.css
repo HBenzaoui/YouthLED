@@ -706,6 +706,7 @@ ul.social-list li:nth-child(3) a:hover {
 
 .portfolio-item {
   overflow: hidden;
+  position: relative;
 }
 
 /* Filter button */
@@ -761,4 +762,6 @@ ul.social-list li:nth-child(3) a:hover {
 /*==========================================
 |   |   |   |  Overlay effect |   |   |   |
 ==========================================*/
-.portfolio-item-overlay {}
+.portfolio-item-overlay {
+  position: absolute;
+}
