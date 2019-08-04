@@ -703,3 +703,20 @@ ul.social-list li:nth-child(3) a:hover {
 #portfolio-wraper .container-fluid {
   padding: 0;
 }
+
+/* Filter button */
+#isotope-filters {
+  margin-bottom: 10px;
+  padding: 20px 25px 20px 0;
+  ;
+}
+
+#isotope-filters button {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: transparent;
+  box-shadow: none;
+  padding-right: 30px;
+}
