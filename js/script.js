@@ -90,3 +90,16 @@ $(window).on('load', function () {
 
   });
 });
+
+
+/*==========================================
+|   |   |   |   Mginfic-poppup  |   |   |   |               
+==========================================*/
+$(function () {
+  $('#portfolio-wraper').magnificPopup({
+    delegate: 'a', // child items selector, by clicking on it popup will open
+    type: 'image',
+    showCloseBtn: 'false'
+    // other options
+  });
+});
