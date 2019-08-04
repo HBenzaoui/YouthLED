@@ -780,3 +780,11 @@ ul.social-list li:nth-child(3) a:hover {
   top: 50%;
   left: 0;
 }
+
+.portfolio-item-details h3 {
+  color: #fac63d;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+}
