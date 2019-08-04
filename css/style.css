@@ -743,9 +743,9 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 .portfolio-item:hover img {
-  transform: scale(20);
-  -webkit-transform: scale(20);
-  -moz-transform: scale(20);
-  -ms-transform: scale(20);
-  -o-transform: scale(20);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
 }
