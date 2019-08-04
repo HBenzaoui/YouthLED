@@ -764,4 +764,19 @@ ul.social-list li:nth-child(3) a:hover {
 ==========================================*/
 .portfolio-item-overlay {
   position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.9);
+  cursor: zoom-in;
+
+}
+
+/* Item details text */
+.portfolio-item-details {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
 }
