@@ -725,3 +725,8 @@ ul.social-list li:nth-child(3) a:hover {
   display: block;
   padding-bottom: 5px;
 }
+
+#isotope-filters .active {
+  color: #fac63d;
+  /* padding-bottom: 5px; */
+}
