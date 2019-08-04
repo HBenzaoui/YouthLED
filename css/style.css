@@ -741,3 +741,5 @@ ul.social-list li:nth-child(3) a:hover {
   width: 100%;
   height: auto;
 }
+
+.portfolio-item:hover img {}
