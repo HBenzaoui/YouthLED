@@ -757,3 +757,8 @@ ul.social-list li:nth-child(3) a:hover {
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
 }
+
+/*==========================================
+|   |   |   |  Overlay effect |   |   |   |
+==========================================*/
+.portfolio-item-overlay {}
