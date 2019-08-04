@@ -726,7 +726,7 @@ ul.social-list li:nth-child(3) a:hover {
   padding-bottom: 5px;
 }
 
-#isotope-filters .active {
+#isotope-filters button.active span {
   color: #fac63d;
   border-bottom: 3px solid #fac63d;
 }
