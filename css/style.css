@@ -720,3 +720,5 @@ ul.social-list li:nth-child(3) a:hover {
   box-shadow: none;
   padding-right: 30px;
 }
+
+#isotope-filters button span {}
