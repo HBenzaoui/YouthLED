@@ -704,11 +704,14 @@ ul.social-list li:nth-child(3) a:hover {
   padding: 0;
 }
 
+.portfolio-item {
+  overflow: hidden;
+}
+
 /* Filter button */
 #isotope-filters {
   margin-bottom: 10px;
   padding: 20px 25px 20px 0;
-  ;
 }
 
 #isotope-filters button {
