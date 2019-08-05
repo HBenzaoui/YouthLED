@@ -723,6 +723,7 @@ ul.social-list li:nth-child(3) a:hover {
   background: transparent;
   box-shadow: none;
   padding-right: 30px;
+  outline: 0;
 }
 
 #isotope-filters button span {
@@ -770,7 +771,12 @@ ul.social-list li:nth-child(3) a:hover {
   right: 0;
   background: rgba(0, 0, 0, 0.9);
   cursor: zoom-in;
-
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  -webkit-transition: opacity 0.5s ease;
+  -moz-transition: opacity 0.5s ease;
+  -ms-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
 }
 
 /* Item details text */
@@ -779,6 +785,11 @@ ul.social-list li:nth-child(3) a:hover {
   position: absolute;
   top: 50%;
   left: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
 }
 
 .portfolio-item-details h3 {
@@ -787,4 +798,70 @@ ul.social-list li:nth-child(3) a:hover {
   font-size: 30px;
   margin: 0;
   padding: 0;
+  transform: translateY(-20%);
+  -webkit-transform: translateY(-25%);
+  -moz-transform: translateY(-25%);
+  -ms-transform: translateY(-25%);
+  -o-transform: translateY(-25%);
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.portfolio-item-details span {
+  display: inline-block;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  height: 6px;
+  width: 30px;
+  margin: 11px auto 5px auto;
+}
+
+.portfolio-item-details p {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  transform: translateY(20%);
+  -webkit-transform: translateY(20%);
+  -moz-transform: translateY(20%);
+  -ms-transform: translateY(20%);
+  -o-transform: translateY(20%);
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+/* Hover the overlay */
+.portfolio-item:hover .portfolio-item-overlay {
+  opacity: 1;
+  transition: all 0.5 linear;
+  -webkit-transition: all 0.5 linear;
+  -moz-transition: all 0.5 linear;
+  -ms-transition: all 0.5 linear;
+  -o-transition: all 0.5 linear;
+}
+
+.portfolio-item:hover .portfolio-item-details h3 {
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+}
+
+.portfolio-item:hover .portfolio-item-details p {
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
 }
