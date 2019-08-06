@@ -887,6 +887,44 @@ ul.social-list li:nth-child(3) a:hover {
   top: -120px;
 }
 
+.testimonial .row {
+  margin-bottom: 25px;
+}
+
 .testimonial {
-  padding: 20px;
+  padding: 20px 45px 0 45px;
+  color: #fff;
+}
+
+.testimonial h3 {
+  font-size: 32px;
+  line-height: 35px;
+}
+
+.testimonial .stars {
+  font-size: 20px;
+  margin: 20px 0 10px 0;
+}
+
+.testimonial p {
+  line-height: normal;
+  margin: 0;
+  margin: 5px 0 20px 0;
+}
+
+
+.author .author-name-des {
+  width: 180px;
+  margin-top: 25px;
+  text-align: left;
+}
+
+.author .author-name-des p {
+  margin: 0;
+}
+
+
+
+.testimonial .owl-theme .owl-nav [class*=owl-]:hover {
+  color: #212226 !important;
 }
