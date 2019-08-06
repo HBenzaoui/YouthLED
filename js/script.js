@@ -125,3 +125,22 @@ $(function () {
 /*==========================================
 |   |   |   |   Testtomonials  |   |   |   |               
 ==========================================*/
+$(function () {
+  $('#team-memebers').owlCarousel({
+    items: 2,
+    // margin: 15,
+    // center: true,s
+    // padding: 10,
+    autoplay: true,
+    autoplayTimeout: 2500,
+    smartSpeed: 700,
+    loop: true,
+    autoplayHoverPause: true,
+    nav: true,
+    dots: false,
+    navText: [
+      '<i class="fa fa-angle-left"></i>',
+      '<i class="fa fa-angle-right"></i>'
+    ]
+  });
+});
