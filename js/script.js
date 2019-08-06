@@ -126,12 +126,12 @@ $(function () {
 |   |   |   |   Testtomonials  |   |   |   |               
 ==========================================*/
 $(function () {
-  $('#team-memebers').owlCarousel({
-    items: 2,
+  $('#testimonial-slider').owlCarousel({
+    items: 1,
     // margin: 15,
     // center: true,s
     // padding: 10,
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 2500,
     smartSpeed: 700,
     loop: true,
