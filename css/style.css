@@ -763,6 +763,10 @@ ul.social-list li:nth-child(3) a:hover {
 /*==========================================
 |   |   |   |  Overlay effect |   |   |   |
 ==========================================*/
+#portfolio {
+  padding-bottom: 160px;
+}
+
 .portfolio-item-overlay {
   position: absolute;
   top: 0;
@@ -866,4 +870,23 @@ ul.social-list li:nth-child(3) a:hover {
   -o-transform: translateY(0);
 }
 
-#testimonials {}
+#testimonials {
+  background: #F4F4F4;
+  padding-bottom: 45px;
+  overflow: visible;
+  /* padding-top: 50px; */
+}
+
+#testimonials .vertical-heading {
+  padding: 80px 0;
+  margin-bottom: 50px;
+}
+
+#testimonial-slider {
+  background: #fac63d;
+  top: -120px;
+}
+
+.testimonial {
+  padding: 20px;
+}
