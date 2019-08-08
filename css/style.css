@@ -383,7 +383,7 @@ section {
 }
 
 .team-member-overlay {
-  background-color: rgba(33, 34, 28, .9);
+  background-color: rgba(33, 34, 28, 0.9);
   position: absolute;
   top: 0;
   left: 0;
@@ -457,30 +457,30 @@ ul.social-list li:nth-child(1) a:hover {
 }
 
 ul.social-list li:nth-child(2) a:hover {
-  background: #1EA2F3;
+  background: #1ea2f3;
   border-color: transparent;
 }
 
 ul.social-list li:nth-child(3) a:hover {
-  background: #0077B5;
+  background: #0077b5;
   border-color: transparent;
 }
 
 /*==========================================
 |   |   |   |   Slider Buttons   |   |   |   |               
 ==========================================*/
-.owl-theme .owl-nav [class*=owl-] {
+.owl-theme .owl-nav [class*='owl-'] {
   color: #212226;
   font-size: 32px !important;
   background: none;
 }
 
-.owl-theme .owl-nav [class*=owl-]:hover {
+.owl-theme .owl-nav [class*='owl-']:hover {
   color: #fac63d;
   background: none;
 }
 
-.owl-theme .owl-nav [class*=owl-]:focus {
+.owl-theme .owl-nav [class*='owl-']:focus {
   outline: none;
 }
 
@@ -517,7 +517,7 @@ ul.social-list li:nth-child(3) a:hover {
 .progress-bar span {
   font-size: 11px;
   font-weight: 100;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   background: #212226;
   margin: 0;
   padding: 3px;
@@ -527,7 +527,7 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 .progress-bar span::before {
-  content: "";
+  content: '';
   border-top: 8px solid #212226;
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
@@ -540,12 +540,12 @@ ul.social-list li:nth-child(3) a:hover {
 |   |   |   |   Statment   |   |   |   |
 ==========================================*/
 #statment {
-  background: url("../img/tech/tech-quote.jpg") no-repeat fixed center;
+  background: url('../img/tech/tech-quote.jpg') no-repeat fixed center;
   background-size: cover;
 }
 
 #statment .content-box-lg {
-  background: rgba(0, 0, 0, 0.3)
+  background: rgba(0, 0, 0, 0.3);
 }
 
 #tech-statment h3 {
@@ -557,7 +557,7 @@ ul.social-list li:nth-child(3) a:hover {
 #tech-statment p {
   color: #fac63d;
   font-size: 14px;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   margin-top: 8px;
 }
 
@@ -579,11 +579,11 @@ ul.social-list li:nth-child(3) a:hover {
 .project .icon {
   font-size: 42px;
   margin: 0;
-  transition: all .3s linear;
-  -webkit-transition: all .3s linear;
-  -moz-transition: all .3s linear;
-  -ms-transition: all .3s linear;
-  -o-transition: all .3s linear;
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
 }
 
 .project:hover .icon {
@@ -619,7 +619,7 @@ ul.social-list li:nth-child(3) a:hover {
 |   |   Projects 02 (Responsive Tabs)  |   
 ==========================================*/
 #projects-02 {
-  background: #F4F4F4
+  background: #f4f4f4;
 }
 
 #projects-tabs ul {
@@ -633,7 +633,7 @@ ul.social-list li:nth-child(3) a:hover {
 
 #projects-tabs ul li a {
   color: #212226;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 400;
@@ -696,7 +696,7 @@ ul.social-list li:nth-child(3) a:hover {
   padding: 0;
 } */
 
-.row.no-gutters [class*=col-] {
+.row.no-gutters [class*='col-'] {
   padding: 0;
 }
 
@@ -716,7 +716,7 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 #isotope-filters button {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
@@ -745,11 +745,11 @@ ul.social-list li:nth-child(3) a:hover {
 .portfolio-item img {
   width: 100%;
   height: auto;
-  transition: transform .5s ease;
-  -webkit-transition: transform .5s ease;
-  -moz-transition: transform .5s ease;
-  -ms-transition: transform .5s ease;
-  -o-transition: transform .5s ease;
+  transition: transform 0.5s ease;
+  -webkit-transition: transform 0.5s ease;
+  -moz-transition: transform 0.5s ease;
+  -ms-transition: transform 0.5s ease;
+  -o-transition: transform 0.5s ease;
 }
 
 .portfolio-item:hover img {
@@ -871,7 +871,7 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 #testimonials {
-  background: #F4F4F4;
+  background: #f4f4f4;
   padding-bottom: 45px;
   overflow: visible;
   /* padding-top: 50px; */
@@ -912,7 +912,6 @@ ul.social-list li:nth-child(3) a:hover {
   margin: 5px 0 20px 0;
 }
 
-
 .author .author-name-des {
   width: 180px;
   margin-top: 25px;
@@ -923,8 +922,13 @@ ul.social-list li:nth-child(3) a:hover {
   margin: 0;
 }
 
-
-
-.testimonial .owl-theme .owl-nav [class*=owl-]:hover {
+.testimonial .owl-theme .owl-nav [class*='owl-']:hover {
   color: #212226 !important;
+}
+
+/*==========================================
+|   |   |   |  Pricing |   |   |   |
+==========================================*/
+.pricing-table {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
