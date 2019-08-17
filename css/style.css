@@ -953,3 +953,16 @@ ul.social-list li:nth-child(3) a:hover {
   font-size: 24px;
   margin-bottom: 25px;
 }
+
+.pricing-table .price {
+  border-top: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+  padding: 24px 0;
+}
+
+.pricing-table .price h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 42px;
+  font-weight: 100;
+  margin: 0 0 0 24px;
+}
