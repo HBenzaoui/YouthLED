@@ -986,8 +986,8 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 .pricing-table .price h2 span.dollar {
-  font-size: 18px;
-  font-weight: 100;
+  font-size: 26px;
+  font-weight: 300;
   position: absolute;
   left: -20px;
   top: 5px;
@@ -1044,7 +1044,8 @@ ul.social-list li:nth-child(3) a:hover {
     color: #212226;
 }
 
-.pricing-table .btn-yellow:hover{
+.pricing-table .btn-yellow:hover,
+.pricing-table .btn-yellow:focus{
     background: #212226;
     border-color: #212226;
     color: #fff;
