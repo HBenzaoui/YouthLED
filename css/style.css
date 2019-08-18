@@ -1156,3 +1156,84 @@ ul.social-list li:nth-child(3) a:hover {
 #partners-list .partner img {
   display: inline-block !important;
 }
+
+/*==========================================
+|   |   |   | Blog |   |   |   |
+==========================================*/
+#blog {
+  background: #f4f4f4;
+}
+
+#blog-left p {
+  margin: 25px 0;
+}
+
+#blog-left a {
+  margin: 0;
+}
+
+.blog-post {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+.blog-post h4 {
+  line-height: 40px;
+  margin: 0;
+}
+
+.blog-post > p {
+  line-height: 24px;
+  margin: 0;
+  font-weight: 300;
+}
+
+.blog-post a {
+  display: inline-block;
+  margin-top: 25px;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  color: #fac63d;
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 300ms linear;
+  -webkit-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+}
+
+.blog-post a:hover {
+  color: #212226;
+}
+
+.blog-post .post-meta {
+  border-top: 1px solid #E0E0E0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
