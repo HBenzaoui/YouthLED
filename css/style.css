@@ -965,4 +965,33 @@ ul.social-list li:nth-child(3) a:hover {
   font-size: 42px;
   font-weight: 100;
   margin: 0 0 0 24px;
+  position: relative;
+}
+
+.pricing-table .price h2 span {
+  font-family: "Raleway", sans-serif;
+}
+
+.pricing-table .price h2 span.dollar {
+  font-size: 18px;
+  font-weight: 100;
+  position: absolute;
+  left: -20px;
+  top: 5px;
+
+}
+
+.pricing-table .price h2 span.month {
+  font-size: 11px;
+  font-weight: 400;
+  position: absolute;
+  left: 5px;
+  bottom: -12px;
+}
+
+.pricing-table .price p {
+  line-height: normal;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
 }
