@@ -1025,74 +1025,108 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 .pricing-table .btn-yellow,
-.pricing-table.black .btn-white
-{
+.pricing-table.black .btn-white {
   width: 96%;
 }
 
 .pricing-table:hover h4,
 .pricing-table:hover h2,
 .pricing-table:hover p,
-.pricing-table:hover ul.package
-{
+.pricing-table:hover ul.package {
   color: #fff;
 }
 
-.pricing-table:hover .btn-yellow{
-    background: #fff;
-    border-color: #fff;
-    color: #212226;
+.pricing-table:hover .btn-yellow {
+  background: #fff;
+  border-color: #fff;
+  color: #212226;
 }
 
 .pricing-table .btn-yellow:hover,
-.pricing-table .btn-yellow:focus{
-    background: #212226;
-    border-color: #212226;
-    color: #fff;
+.pricing-table .btn-yellow:focus {
+  background: #212226;
+  border-color: #212226;
+  color: #fff;
 }
 
 /*Black Prining table*/
-.pricing-table.black{
-   background: #212226;
-    color: #fff;
-    
+.pricing-table.black {
+  background: #212226;
+  color: #fff;
 }
 
-.pricing-table.black .type h4{
-   color: #fff;
+.pricing-table.black .type h4 {
+  color: #fff;
 }
 
 .pricing-table.black:hover {
   background: #fac63d;
 }
 
+/*==========================================
+|   |   |   | Stats |   |   |   |
+==========================================*/
+#stats {
+  background: url('../img/stats/stats-bg.jpg') no-repeat fixed center;
+  background-size: cover;
+}
 
+#stats .content-box-md {
+  background: rgba(0, 0, 0, 0.8);
+}
 
+#stats .vertical-heading {
+  margin-bottom: 50px;
+}
 
+#stats .vertical-heading h2 {
+  color: #fff;
+}
 
+.stats-item {
+  background: rgba(61, 68, 68, 0.6);
+  border-radius: 4px;
+  min-height: 170px;
+  padding: 25px 50px;
+  transition: all 300ms linear;
+  -webkit-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+}
 
+.stats-item i {
+  font-size: 42px;
+  color: #fac63d;
+  margin: 0 0 6px 0;
+  transition: all 300ms linear;
+  -webkit-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+}
 
+.stats-item h3 {
+  font-size: 32px;
+  color: #fff;
+  margin: 5px 0 5px 0;
+}
 
+.stats-item p {
+  color: #fff;
+  margin: 0;
+}
 
+.stats-item:hover {
+  background: #fac63d;
+  margin: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.stats-item:hover i {
+  color: #212226;
+  transform: translateY(-13px);
+  -webkit-transform: translateY(-13px);
+  -moz-transform: translateY(-13px);
+  -ms-transform: translateY(-13px);
+  -o-transform: translateY(-13px);
+}
