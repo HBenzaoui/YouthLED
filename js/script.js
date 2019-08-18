@@ -3,7 +3,7 @@
 ==========================================*/
 
 //This is to make sure the whole side is loaded
-$(window).on('load', function () {
+$(window).on('load', function() {
   $('#status').fadeOut('slow');
   $('#preloader')
     .delay(350)
@@ -13,7 +13,7 @@ $(window).on('load', function () {
 /*==========================================
 |   |   |   |   Team   |   |   |   |               
 ==========================================*/
-$(function () {
+$(function() {
   $('#team-memebers').owlCarousel({
     items: 2,
     // margin: 15,
@@ -36,18 +36,20 @@ $(function () {
 /*==========================================
 |   |   |   |   Progress Bars   |   |   |   |               
 ==========================================*/
-$(function () {
+$(function() {
   $('#progress-elements').waypoint(
-    function () {
-      $('.progress-bar').each(function () {
-        $(this).animate({
+    function() {
+      $('.progress-bar').each(function() {
+        $(this).animate(
+          {
             width: $(this).attr('aria-valuenow') + '%'
           },
           800
         );
       });
       this.destroy();
-    }, {
+    },
+    {
       offset: 'bottom-in-view'
     }
   );
@@ -56,7 +58,7 @@ $(function () {
 /*==========================================
 |   |   |   |   Responsive Tabs   |   |   |   |               
 ==========================================*/
-$(function () {
+$(function() {
   $('#projects-tabs').responsiveTabs({
     // startCollapsed: 'accordion',
     animation: 'slide'
@@ -66,16 +68,14 @@ $(function () {
 /*==========================================
 |   |   |   |   Portfolio   |   |   |   |               
 ==========================================*/
-$(window).on('load', function () {
-
+$(window).on('load', function() {
   // Inisiliaze Isotope
-  $("#isotope-container").isotope({
+  $('#isotope-container').isotope({
     // options
   });
 
   // Filter item on button click
-  $('#isotope-filters').on('click', 'button', function () {
-
+  $('#isotope-filters').on('click', 'button', function() {
     // get filter value
     var filterValue = $(this).attr('data-filter');
 
@@ -85,17 +85,17 @@ $(window).on('load', function () {
     });
 
     // active button
-    $('#isotope-filters').find('.active').removeClass('active')
+    $('#isotope-filters')
+      .find('.active')
+      .removeClass('active');
     $(this).addClass('active');
-
   });
 });
-
 
 /*==========================================
 |   |   |   |   Mginfic-poppup  |   |   |   |               
 ==========================================*/
-$(function () {
+$(function() {
   $('#portfolio-wraper').magnificPopup({
     delegate: 'a', // child items selector, by clicking on it popup will open
     type: 'image',
@@ -112,20 +112,21 @@ $(function () {
       // The "opener" function should return the element from which popup will be zoomed in
       // and to which popup will be scaled down
       // By defailt it looks for an image tag:
-      opener: function (openerElement) {
+      opener: function(openerElement) {
         // openerElement is the element on which popup was initialized, in this case its <a> tag
         // you don't need to add "opener" option if this code matches your needs, it's defailt one.
-        return openerElement.is('img') ? openerElement : openerElement.find('img');
+        return openerElement.is('img')
+          ? openerElement
+          : openerElement.find('img');
       }
     }
-
   });
 });
 
 /*==========================================
 |   |   |   |   Testtomonials  |   |   |   |               
 ==========================================*/
-$(function () {
+$(function() {
   $('#testimonial-slider').owlCarousel({
     items: 1,
     // margin: 15,
@@ -142,5 +143,14 @@ $(function () {
       '<i class="fa fa-angle-left"></i>',
       '<i class="fa fa-angle-right"></i>'
     ]
+  });
+});
+/*==========================================
+|   |   |   |   Stats   |   |   |   |               
+==========================================*/
+$(function() {
+  $('.counter').counterUp({
+    delay: 10,
+    time: 1200
   });
 });
