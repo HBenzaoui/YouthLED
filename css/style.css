@@ -961,7 +961,7 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 .pricing-table .price h2 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 42px;
   font-weight: 100;
   margin: 0 0 0 24px;
@@ -969,7 +969,7 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 .pricing-table .price h2 span {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .pricing-table .price h2 span.dollar {
@@ -978,7 +978,6 @@ ul.social-list li:nth-child(3) a:hover {
   position: absolute;
   left: -20px;
   top: 5px;
-
 }
 
 .pricing-table .price h2 span.month {
@@ -994,4 +993,16 @@ ul.social-list li:nth-child(3) a:hover {
   font-weight: 200;
   margin: 0;
   padding: 0;
+}
+
+.pricing-table ul.package {
+  list-style: none;
+  padding: 20px 0;
+}
+
+.pricing-table ul.package li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 40px;
 }
