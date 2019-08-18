@@ -1020,8 +1020,22 @@ ul.social-list li:nth-child(3) a:hover {
 .pricing-table:hover p,
 .pricing-table:hover ul.package
 {
-  color: white;
+  color: #fff;
 }
+
+.pricing-table:hover .btn-yellow{
+    background: #fff;
+    border-color: #fff;
+    color: #212226;
+}
+
+.pricing-table .btn-yellow:hover{
+    background: #212226;
+    border-color: #212226;
+    color: #fff;
+}
+
+
 
 
 
