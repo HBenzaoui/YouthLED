@@ -245,6 +245,10 @@ section {
   padding: 100px 0;
 }
 
+.content-box-sm {
+  padding: 90px 0;
+}
+
 /*==========================================
 |   |   |   |   Vertical/horizontal Heading   |   |   |   |               
 ==========================================*/
@@ -1129,4 +1133,26 @@ ul.social-list li:nth-child(3) a:hover {
   -moz-transform: translateY(-13px);
   -ms-transform: translateY(-13px);
   -o-transform: translateY(-13px);
+}
+
+/*==========================================
+|   |   |   | Partners |   |   |   |
+==========================================*/
+#partners .horizontal-heading {
+  margin-bottom: 30px;
+}
+
+#partners-list {
+  padding: 45px 0 0 0;
+}
+
+#partners-list .partner {
+  padding: 0 10px;
+  max-width: 150px;
+  margin: 0 auto;
+  line-height: 100px;
+}
+
+#partners-list .partner img {
+  display: inline-block !important;
 }

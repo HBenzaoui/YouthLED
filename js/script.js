@@ -14,8 +14,8 @@ $(window).on('load', function() {
 |   |   |   |   Team   |   |   |   |               
 ==========================================*/
 $(function() {
-  $('#team-memebers').owlCarousel({
-    items: 2,
+  $('#partners-list').owlCarousel({
+    items: 6,
     // margin: 15,
     // center: true,
     // padding: 10,
@@ -152,5 +152,28 @@ $(function() {
   $('.counter').counterUp({
     delay: 10,
     time: 1200
+  });
+});
+
+/*==========================================
+|   |   |   |   Partners   |   |   |   |               
+==========================================*/
+$(function() {
+  $('#team-memebers').owlCarousel({
+    items: 2,
+    // margin: 15,
+    // center: true,
+    // padding: 10,
+    autoplay: true,
+    autoplayTimeout: 2500,
+    smartSpeed: 700,
+    loop: true,
+    autoplayHoverPause: true,
+    nav: true,
+    dots: false,
+    navText: [
+      '<i class="fa fa-angle-left"></i>',
+      '<i class="fa fa-angle-right"></i>'
+    ]
   });
 });
