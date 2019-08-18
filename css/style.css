@@ -1035,6 +1035,16 @@ ul.social-list li:nth-child(3) a:hover {
     color: #fff;
 }
 
+/*Black Prining table*/
+.pricing-table.black{
+   background: #212226;
+    color: #fff;
+    
+}
+.pricing-table.black .type h4{
+   color: #fff;
+}
+
 
 
 
