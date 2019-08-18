@@ -1006,3 +1006,48 @@ ul.social-list li:nth-child(3) a:hover {
   font-weight: 400;
   line-height: 40px;
 }
+
+.pricing-table ul.package li i::before {
+  margin-right: 15px;
+}
+
+.pricing-table .btn-yellow {
+  width: 96%;
+}
+
+.pricing-table:hover h4,
+.pricing-table:hover h2,
+.pricing-table:hover p,
+.pricing-table:hover ul.package
+{
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
