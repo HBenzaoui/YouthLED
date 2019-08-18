@@ -200,6 +200,19 @@ section {
   border: 1px solid #212226;
 }
 
+.btn-white {
+  color: #212226;
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+  color: #fff;
+  background: #212226;
+  border: 1px solid #212226;
+}
+
 /*==========================================
 |   |   |   |   Arrow Down   |   |   |   |               
 ==========================================*/
@@ -1011,7 +1024,9 @@ ul.social-list li:nth-child(3) a:hover {
   margin-right: 15px;
 }
 
-.pricing-table .btn-yellow {
+.pricing-table .btn-yellow,
+.pricing-table.black .btn-white
+{
   width: 96%;
 }
 
@@ -1041,8 +1056,13 @@ ul.social-list li:nth-child(3) a:hover {
     color: #fff;
     
 }
+
 .pricing-table.black .type h4{
    color: #fff;
+}
+
+.pricing-table.black:hover {
+  background: #fac63d;
 }
 
 
