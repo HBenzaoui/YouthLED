@@ -1275,3 +1275,10 @@ ul.office-details li i {
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
 }
+
+/*==========================================
+|   |   |   | Google Map |   |   |   |
+==========================================*/
+#map {
+  height: 600px;
+}
