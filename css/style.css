@@ -1245,7 +1245,7 @@ ul.office-details {
 ul.office-details li {
   font-family: 'Open Sans', sans-serif;
   margin-top: 12px;
-  display: flex;
+  display: flex;  
 }
 
 ul.office-details li i {
@@ -1286,3 +1286,30 @@ ul.office-details li i {
 #google-map .container-fluid {
   padding: 0;
 }
+
+/*==========================================
+|   |   |   | Footer |   |   |   |
+==========================================*/
+footer{
+    background: #212226;
+    padding: 30px;
+}
+
+footer p{
+    color: #fff;
+    line-height: 20px;
+}
+
+footer p span{
+    color: #FAC63D;
+}
+
+
+
+
+
+
+
+
+
+
