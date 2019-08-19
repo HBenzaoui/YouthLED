@@ -1282,3 +1282,7 @@ ul.office-details li i {
 #map {
   height: 600px;
 }
+
+#google-map .container-fluid {
+  padding: 0;
+}

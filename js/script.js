@@ -177,3 +177,34 @@ $(function() {
     ]
   });
 });
+
+/*==========================================
+|   |   |   | Google Map |   |   |   |
+==========================================*/
+// Initialize and add the map
+$(window).on('load', function() {
+  // map vars
+  var adrString =
+    "105 Rue Didouche Mourad, Sidi M'Hamed 16000, Algiers, Algeria";
+  var myLatLng = { lat: 36.763917, lng: 3.048688 };
+
+  // 1. Render the map
+  var map = new google.maps.Map(document.getElementById('map'), {
+    zoom: 18,
+    center: myLatLng
+  });
+  // 2. The marker, positioned at myLatLng
+  var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Click to show the address'
+  });
+  //3. Info WQindow
+  var infowindow = new google.maps.InfoWindow({
+    content: adrString
+  });
+  //Show info window when user click marker
+  marker.addListener('click', function() {
+    infowindow.open(map, marker);
+  });
+});
