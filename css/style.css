@@ -1254,38 +1254,24 @@ ul.office-details li i {
 }
 
 #contact-left ul.social-list li a {
-    color: #212226;
-    border: 1px solid #212226;
-    text-align: center;
+  color: #212226;
+  border: 1px solid #212226;
+  text-align: center;
 }
 
 #contact-left ul.social-list li a:hover {
-    color: #fff;
-    border-color: transparent;
-    text-align: center;
+  color: #fff;
+  border-color: transparent;
+  text-align: center;
 }
 
 /*Conact Right*/
-#contact-right{
-    padding: 25px 30px;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+#contact-right {
+  padding: 25px 30px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
