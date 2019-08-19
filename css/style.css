@@ -1233,16 +1233,37 @@ ul.social-list li:nth-child(3) a:hover {
 ==========================================*/
 
 /*Conact Left*/
-#contact-left p{
-    margin: 25px 0 20px 0;
+#contact-left p {
+  margin: 25px 0 20px 0;
 }
 
-#contact-left p{
-    margin: 25px 0 20px 0;
+ul.office-details {
+  list-style: none;
+  padding: 0;
 }
 
+ul.office-details li {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 12px;
+  display: flex;
+}
 
+ul.office-details li i {
+  font-size: 20px;
+  width: 35px;
+}
 
+#contact-left ul.social-list li a {
+    color: #212226;
+    border: 1px solid #212226;
+    text-align: center;
+}
+
+#contact-left ul.social-list li a:hover {
+    color: #fff;
+    border-color: transparent;
+    text-align: center;
+}
 
 
 
