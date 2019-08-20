@@ -1309,6 +1309,11 @@ footer p span {
 ==========================================*/
 .navbar {
   padding: 20px 0 20px 0;
+  transition: all 300ms linear;
+  -webkit-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
 }
 
 .site-nav-wrapper .container-fluid {
@@ -1316,73 +1321,41 @@ footer p span {
 }
 
 .navbar-brand {
-/*  padding: 15px 15px;*/
-    margin-top: 15px;
-    margin-left: 20px;
+  /*  padding: 15px 15px;*/
+  margin-top: 5px;
+  margin-left: 20px;
 }
 
-ul.navbar-nav> li> a {
-    font-family: "Raleway", sans-serif;
-    color: #fff;
-    font-size: 13px;
-    font-weight: 400;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+ul.navbar-nav > li > a {
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
-ul.navbar-nav> li> a:hover,
-ul.navbar-nav> li> a:focus{
-    background: none;
-    color: #FAC63D;
+ul.navbar-nav > li > a:hover,
+ul.navbar-nav > li > a:focus {
+  background: none;
+  color: #fac63d;
 }
 
 /*White navigation bar*/
 
-.white-nav-top{
-    background: #fff;
-    padding: 0;
-    -webkit-box-shadow: 0 8px 6px -9px #999;
-    box-shadow: 0 8px 6px -9px #999;
-    z-index: 2;
+.white-nav-top {
+  background: #fff;
+  padding: 0;
+  -webkit-box-shadow: 0 8px 6px -9px #999;
+  box-shadow: 0 8px 6px -9px #999;
+  z-index: 2;
 }
 
-.white-nav-top ul.navbar-nav> li> a{
-    color: #212226;
+.white-nav-top ul.navbar-nav > li > a {
+  color: #212226;
 }
 
-.white-nav-top ul.navbar-nav> li> a:hover,
-.white-nav-top ul.navbar-nav> li> a:focus{
-    color: #FAC63D;
+.white-nav-top ul.navbar-nav > li > a:hover,
+.white-nav-top ul.navbar-nav > li > a:focus {
+  color: #fac63d;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

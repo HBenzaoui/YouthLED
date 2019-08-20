@@ -216,13 +216,18 @@ $(window).on('load', function() {
 // Show and hide white navbar
 $(function() {
   $(window).scroll(function() {
-    if ($(window).scrollTop() > 800) {
+    if ($(window).scrollTop() > 100) {
       //Show white navbar
-      // alert('Scorl > 50 and =' + $(window).scrollTop());
       $('nav').addClass('white-nav-top');
+
+      // Show dark logo
+      $('.navbar-brand img').attr('src', 'img/logo/Logo5 black.png');
     } else {
-      // alert('Scorl < 50 and =' + $(window).scrollTop());
+      //Show black navbar
       $('nav').removeClass('white-nav-top');
+
+      // Show white logo
+      $('.navbar-brand img').attr('src', 'img/logo/Logo5 White.png');
     }
   });
 });
