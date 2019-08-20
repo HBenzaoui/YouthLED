@@ -1308,7 +1308,7 @@ footer p span {
 |   |   |   | Footer |   |   |   |
 ==========================================*/
 .navbar {
-  padding: 35px 0 20px 0;
+  padding: 20px 0 20px 0;
 }
 
 .site-nav-wrapper .container-fluid {
@@ -1316,7 +1316,9 @@ footer p span {
 }
 
 .navbar-brand {
-  padding: 15px 15px;
+/*  padding: 15px 15px;*/
+    margin-top: 15px;
+    margin-left: 20px;
 }
 
 ul.navbar-nav> li> a {
@@ -1333,6 +1335,47 @@ ul.navbar-nav> li> a:focus{
     background: none;
     color: #FAC63D;
 }
+
+/*White navigation bar*/
+
+.white-nav-top{
+    background: #fff;
+    padding: 0;
+    -webkit-box-shadow: 0 8px 6px -9px #999;
+    box-shadow: 0 8px 6px -9px #999;
+    z-index: 2;
+}
+
+.white-nav-top ul.navbar-nav> li> a{
+    color: #212226;
+}
+
+.white-nav-top ul.navbar-nav> li> a:hover,
+.white-nav-top ul.navbar-nav> li> a:focus{
+    color: #FAC63D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
