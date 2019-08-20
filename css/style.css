@@ -1245,7 +1245,7 @@ ul.office-details {
 ul.office-details li {
   font-family: 'Open Sans', sans-serif;
   margin-top: 12px;
-  display: flex;  
+  display: flex;
 }
 
 ul.office-details li i {
@@ -1290,19 +1290,37 @@ ul.office-details li i {
 /*==========================================
 |   |   |   | Footer |   |   |   |
 ==========================================*/
-footer{
-    background: #212226;
-    padding: 30px;
+footer {
+  background: #212226;
+  padding: 30px;
 }
 
-footer p{
-    color: #fff;
-    line-height: 20px;
+footer p {
+  color: #fff;
+  line-height: 20px;
 }
 
-footer p span{
-    color: #FAC63D;
+footer p span {
+  color: #fac63d;
 }
+
+/*==========================================
+|   |   |   | Footer |   |   |   |
+==========================================*/
+.navbar {
+  padding: 35px 0 20px 0;
+}
+
+.site-nav-wrapper .container-fluid {
+  padding: 0 150px;
+}
+
+.navbar-brand {
+  padding: 15px 15px;
+}
+
+
+
 
 
 
