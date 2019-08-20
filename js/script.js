@@ -208,3 +208,21 @@ $(window).on('load', function() {
     infowindow.open(map, marker);
   });
 });
+
+/*==========================================
+|   |   |   | Navigation |   |   |   |
+==========================================*/
+
+// Show and hide white navbar
+$(function() {
+  $(window).scroll(function() {
+    if ($(window).scrollTop() > 800) {
+      //Show white navbar
+      // alert('Scorl > 50 and =' + $(window).scrollTop());
+      $('nav').addClass('white-nav-top');
+    } else {
+      // alert('Scorl < 50 and =' + $(window).scrollTop());
+      $('nav').removeClass('white-nav-top');
+    }
+  });
+});
