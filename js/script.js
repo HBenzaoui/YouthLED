@@ -215,7 +215,15 @@ $(window).on('load', function() {
 
 // Show and hide white navbar
 $(function() {
+  // Show and Hide on Page Load
+  showHideNav();
+
+  // Show hide on Scroll
   $(window).scroll(function() {
+    showHideNav();
+  });
+
+  function showHideNav() {
     if ($(window).scrollTop() > 100) {
       //Show white navbar
       $('nav').addClass('white-nav-top');
@@ -229,5 +237,5 @@ $(function() {
       // Show white logo
       $('.navbar-brand img').attr('src', 'img/logo/Logo5 White.png');
     }
-  });
+  }
 });
