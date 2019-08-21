@@ -1359,3 +1359,9 @@ ul.navbar-nav > li > a:focus {
 .white-nav-top ul.navbar-nav > li > a:focus {
   color: #fac63d;
 }
+
+/* ScrollSpy active state */
+.white-nav-top ul.navbar-nav > li > a.active {
+  color: #fac63d;
+  font-weight: 500;
+}
