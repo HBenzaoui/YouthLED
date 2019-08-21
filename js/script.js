@@ -243,4 +243,18 @@ $(function() {
 /*==========================================
 |   |   |   | Smooth Scrolling |   |   |   |
 ==========================================*/
-$(function() {});
+$(function() {
+  $('a.smooth-scroll').click(function(e) {
+    e.preventDefault();
+
+    //Get the id of the section
+    var sectionId = $(this).attr('href');
+
+    $('html, body').animate(
+      {
+        scrollTop: $(sectionId).offset().top - 61
+      },
+      1000
+    );
+  });
+});
