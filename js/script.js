@@ -254,7 +254,8 @@ $(function() {
       {
         scrollTop: $(sectionId).offset().top - 61
       },
-      1000
+      1000,
+      'easeInOutExpo'
     );
   });
 });
