@@ -230,12 +230,18 @@ $(function() {
 
       // Show dark logo
       $('.navbar-brand img').attr('src', 'img/logo/Logo5 black.png');
+
+      // Show back to top btn
+      $('#back-to-top').fadeIn();
     } else {
       //Show black navbar
       $('nav').removeClass('white-nav-top');
 
       // Show white logo
       $('.navbar-brand img').attr('src', 'img/logo/Logo5 White.png');
+
+      // Hide back to top btn
+      $('#back-to-top').fadeOut();
     }
   }
 });
