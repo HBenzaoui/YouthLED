@@ -213,6 +213,19 @@ section {
   border: 1px solid #212226;
 }
 
+.btn-back-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 3px 15px;
+    border-radius: 4px;
+    font-size: 22px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
 /*==========================================
 |   |   |   |   Arrow Down   |   |   |   |               
 ==========================================*/
