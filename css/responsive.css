@@ -56,6 +56,31 @@
     .vertical-heading h2{
         font-size: 29px;
     }
+    
+    #team-left p{
+        line-height: 20px;
+    }
+    
+    .team-member-overlay {
+/*        top: -20px;*/
+    }
+    
+    .team-memebr-info{
+        padding-top: 20px;
+    }
+    
+    .team-memebr-info h6{
+        font-size: 15px;
+    }
+    
+    .team-memebr-info p{
+        font-size: 12px;
+    }
+    
+    .team-memebr-info .social-list{
+        padding-top: 0;
+        margin: 0;
+    }
 }
 
 /* s = Small Devices (Tablets)*/

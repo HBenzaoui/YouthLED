@@ -14,8 +14,8 @@ $(window).on('load', function() {
 |   |   |   |   Team   |   |   |   |               
 ==========================================*/
 $(function() {
-  $('#partners-list').owlCarousel({
-    items: 6,
+  $('#team-memebers').owlCarousel({
+    items: 2,
     // margin: 15,
     // center: true,
     // padding: 10,
@@ -29,10 +29,23 @@ $(function() {
     navText: [
       '<i class="fa fa-angle-left"></i>',
       '<i class="fa fa-angle-right"></i>'
-    ]
+    ],
+    responsive: {
+      // breakpoint from 0 up
+      0: {
+        items: 1
+      },
+      // breakpoint from 480 up
+      480: {
+        items: 2
+      },
+      // breakpoint from 768 up
+      768: {
+        items: 2
+      }
+    }
   });
 });
-
 /*==========================================
 |   |   |   |   Progress Bars   |   |   |   |               
 ==========================================*/
@@ -159,8 +172,8 @@ $(function() {
 |   |   |   |   Partners   |   |   |   |               
 ==========================================*/
 $(function() {
-  $('#team-memebers').owlCarousel({
-    items: 2,
+  $('#partners-list').owlCarousel({
+    items: 6,
     // margin: 15,
     // center: true,
     // padding: 10,
