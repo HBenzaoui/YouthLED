@@ -3,122 +3,106 @@
 ==========================================*/
 
 /* xl = Extra Large Devices (Desktops & Laptops)*/
-@media (min-width: 1200px){
+@media (min-width: 1200px) {
     /*  Everything looks perfect  */
 }
 
 /* l = Large Devices (Laptops)*/
 @media (min-width: 992px) and (max-width: 1199px) {
-    
+
     /*  Projects 2  */
-    #projects-tabs .tab-bg{
-      padding: 16px 30px;  
-      min-height: 394.97px;
+    #projects-tabs .tab-bg {
+        padding: 16px 30px;
+        min-height: 394.97px;
     }
-    
-    .project-tab p{
+
+    .project-tab p {
         line-height: 20px;
     }
 }
- 
+
 
 /* md = Medium Devices (Tablets)*/
 @media (min-width: 768px) and (max-width: 991px) {
-    
+
     /* Navigation */
-    .site-nav-wrapper{
+    .site-nav-wrapper {
         padding: 0;
         margin: 0;
     }
-    .navbar-brand{
+
+    .navbar-brand {
         padding: 10px 0 5px 0;
         margin: 0;
     }
-    .site-nav-wrapper .container-fluid{
-     padding: 0 40px 0 40px;
+
+    .site-nav-wrapper .container-fluid {
+        padding: 0 40px 0 40px;
     }
-    
+
     /* Home */
-    #home-heading h1{
+    #home-heading h1 {
         font-size: 31px;
-    } 
-    #home-text p{
+    }
+
+    #home-text p {
         font-size: 13px;
     }
-    
+
     /* Geniric */
-    .btn-general{
+    .btn-general {
         padding: 8px 35px 8px 35px;
         font-size: 10px;
     }
-    
+
     /* Geniric */
-    .vertical-heading h2{
+    .vertical-heading h2 {
         font-size: 29px;
     }
-    
-    #team-left p{
+
+    /* Team Left */
+    #team-left p {
         line-height: 20px;
     }
-    
-    .team-member-overlay {
-/*        top: -20px;*/
-    }
-    
-    .team-memebr-info{
+
+    .team-memebr-info {
         padding-top: 20px;
     }
-    
-    .team-memebr-info h6{
+
+    .team-memebr-info h6 {
         font-size: 15px;
     }
-    
-    .team-memebr-info p{
+
+    .team-memebr-info p {
         font-size: 12px;
     }
-    
-    .team-memebr-info .social-list{
+
+    .team-memebr-info .social-list {
         padding-top: 0;
         margin: 0;
     }
+    
+    /* Statement */
+    #statment h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    /* Project1 */
+    .project:nth-child(2) .icon{
+       margin-left: -10px;
+       
+    }
+    
+    .project:nth-child(3) .icon{
+       margin-left: -15px;
+       
+    }
+    
 }
 
 /* s = Small Devices (Tablets)*/
-@media (min-width: 576px) and (max-width: 767px) {
-  
-}
+@media (min-width: 576px) and (max-width: 767px) {}
 
 /* xs = Extra Small Devices (Tablets)*/
-@media (max-width: 575px) {
- 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 575px) {}
