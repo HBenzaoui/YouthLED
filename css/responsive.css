@@ -10,12 +10,52 @@
 /* l = Large Devices (Laptops)*/
 @media (min-width: 992px) and (max-width: 1199px) {
     
+    /*  Projects 2  */
+    #projects-tabs .tab-bg{
+      padding: 16px 30px;  
+      min-height: 394.97px;
+    }
+    
+    .project-tab p{
+        line-height: 20px;
+    }
 }
  
 
 /* md = Medium Devices (Tablets)*/
 @media (min-width: 768px) and (max-width: 991px) {
- 
+    
+    /* Navigation */
+    .site-nav-wrapper{
+        padding: 0;
+        margin: 0;
+    }
+    .navbar-brand{
+        padding: 10px 0 5px 0;
+        margin: 0;
+    }
+    .site-nav-wrapper .container-fluid{
+     padding: 0 40px 0 40px;
+    }
+    
+    /* Home */
+    #home-heading h1{
+        font-size: 31px;
+    } 
+    #home-text p{
+        font-size: 13px;
+    }
+    
+    /* Geniric */
+    .btn-general{
+        padding: 8px 35px 8px 35px;
+        font-size: 10px;
+    }
+    
+    /* Geniric */
+    .vertical-heading h2{
+        font-size: 29px;
+    }
 }
 
 /* s = Small Devices (Tablets)*/
