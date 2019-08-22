@@ -2,3 +2,16 @@
 |   |   | Bootstrap Media Querries   |   |
 ==========================================*/
 
+/* xl = Extra Large Devices (Desktops & Laptops)*/
+@media (min-width: 1200px){
+    #home-heading h1{
+        color: aqua;
+    }
+}
+
+/* l = Large Devices (Laptops)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    #home-heading h1{
+        color: brown;
+    }
+}
