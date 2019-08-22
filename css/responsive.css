@@ -15,9 +15,54 @@
         color: brown;
     }
 }
+
 /* md = Medium Devices (Tablets)*/
 @media (min-width: 768px) and (max-width: 991px) {
     #home-heading h1{
         color: fuchsia;
     }
 }
+
+/* s = Small Devices (Tablets)*/
+@media (min-width: 576px) and (max-width: 767px) {
+    #home-heading h1{
+        color: yellow;
+    }
+}
+
+/* xs = Extra Small Devices (Tablets)*/
+@media (max-width: 575px) {
+    #home-heading h1{
+        color: blue;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
