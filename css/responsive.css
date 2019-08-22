@@ -4,11 +4,13 @@
 
 /* xl = Extra Large Devices (Desktops & Laptops)*/
 @media (min-width: 1200px){
-    
+    /*  Everything looks perfect  */
 }
 
 /* l = Large Devices (Laptops)*/
 @media (min-width: 992px) and (max-width: 1199px) {
+    
+}
  
 
 /* md = Medium Devices (Tablets)*/
