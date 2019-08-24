@@ -115,6 +115,18 @@
         text-decoration: none;
     }
 
+    .r-tabs-accordion-title.r-tabs-state-active a {
+        color: #fac63d;
+        font-weight: 700;
+        padding-bottom: 5px;
+        border-bottom: 3px solid #fac63d;
+        transition: border-bottom 300ms linear;
+        -webkit-transition: border-bottom 300ms linear;
+        -moz-transition: border-bottom 300ms linear;
+        -ms-transition: border-bottom 300ms linear;
+        -o-transition: border-bottom 300ms linear;
+    }
+
 }
 
 /* s = Small Devices (Tablets)*/
