@@ -133,6 +133,23 @@
         margin: 0 0 0 6px;
         font-size: 35px;
     }
+    
+    /*  Blog  */
+    #blog .col-md-8{
+        margin: 0;    
+        padding: 0;   
+    }
+    .blog-post .post-meta p{
+        line-height: 14px;        
+        display: flex;
+        white-space: ;
+    }
+    .blog-post .post-meta p img{
+        margin: 0 7px 0 -7px;          
+    }
+    .blog-post .post-meta p.text-right{
+        font-size: 13px;        
+    }
 }
 
 /* s = Small Devices (Tablets)*/
