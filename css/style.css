@@ -213,18 +213,18 @@ section {
   border: 1px solid #212226;
 }
 
-.btn-back-to-top{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    padding: 3px 15px;
-    border-radius: 4px;
-    font-size: 22px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    display: none;
+.btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 3px 15px;
+  border-radius: 4px;
+  font-size: 22px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  display: none;
 }
 
 /*==========================================
@@ -684,7 +684,7 @@ ul.social-list li:nth-child(3) a:hover {
   -o-transition: border-bottom 300ms linear;
 }
 
-.project-tab .col-md-6 {
+.project-tab .col-lg-6 {
   padding: 0;
 }
 
@@ -1202,7 +1202,7 @@ ul.social-list li:nth-child(3) a:hover {
   margin: 0;
 }
 
-.blog-post > p {
+.blog-post>p {
   line-height: 24px;
   margin: 0;
   font-weight: 300;
@@ -1340,7 +1340,7 @@ footer p span {
   margin-left: 20px;
 }
 
-ul.navbar-nav > li > a {
+ul.navbar-nav>li>a {
   font-family: 'Raleway', sans-serif;
   color: #fff;
   font-size: 13px;
@@ -1349,8 +1349,8 @@ ul.navbar-nav > li > a {
   letter-spacing: 1px;
 }
 
-ul.navbar-nav > li > a:hover,
-ul.navbar-nav > li > a:focus {
+ul.navbar-nav>li>a:hover,
+ul.navbar-nav>li>a:focus {
   background: none;
   color: #fac63d;
 }
@@ -1365,17 +1365,17 @@ ul.navbar-nav > li > a:focus {
   z-index: 2;
 }
 
-.white-nav-top ul.navbar-nav > li > a {
+.white-nav-top ul.navbar-nav>li>a {
   color: #212226;
 }
 
-.white-nav-top ul.navbar-nav > li > a:hover,
-.white-nav-top ul.navbar-nav > li > a:focus {
+.white-nav-top ul.navbar-nav>li>a:hover,
+.white-nav-top ul.navbar-nav>li>a:focus {
   color: #fac63d;
 }
 
 /* ScrollSpy active state */
-.white-nav-top ul.navbar-nav > li > a.active {
+.white-nav-top ul.navbar-nav>li>a.active {
   color: #fac63d;
   font-weight: 500;
 }

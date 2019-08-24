@@ -81,24 +81,40 @@
         padding-top: 0;
         margin: 0;
     }
-    
+
     /* Statement */
-    #statment h3{
+    #statment h3 {
         font-size: 20px;
         line-height: 30px;
     }
-    
+
     /* Project1 */
-    .project:nth-child(2) .icon{
-       margin-left: -10px;
-       
+    .project:nth-child(2) .icon {
+        margin-left: -10px;
+
     }
-    
-    .project:nth-child(3) .icon{
-       margin-left: -15px;
-       
+
+    .project:nth-child(3) .icon {
+        margin-left: -15px;
+
     }
-    
+
+    /* Projects 02*/
+    .r-tabs-accordion-title {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .r-tabs-accordion-title a {
+        color: #212226;
+        font-family: 'Raleway', sans-serif;
+        font-size: 13px;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 0;
+        text-decoration: none;
+    }
+
 }
 
 /* s = Small Devices (Tablets)*/
