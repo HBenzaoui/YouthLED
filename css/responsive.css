@@ -128,6 +128,11 @@
         -o-transition: border-bottom 300ms linear;
     }
 
+    /*  Prcing Table */
+    .pricing-table .price h2 {
+        margin: 0 0 0 6px;
+        font-size: 35px;
+    }
 }
 
 /* s = Small Devices (Tablets)*/
