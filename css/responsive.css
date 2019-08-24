@@ -115,6 +115,7 @@
         text-decoration: none;
     }
 
+    /*  Tab active state  */
     .r-tabs-accordion-title.r-tabs-state-active a {
         color: #fac63d;
         font-weight: 700;
