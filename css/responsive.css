@@ -134,6 +134,12 @@
         font-size: 35px;
     }
     
+    /*  stat  */
+    .stats-item p{
+        line-height: 18px;
+        
+    }
+    
     /*  Blog  */
     #blog .col-md-8{
         margin: 0;    
