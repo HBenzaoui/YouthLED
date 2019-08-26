@@ -1259,7 +1259,7 @@ ul.office-details {
 ul.office-details li {
   font-family: 'Open Sans', sans-serif;
   margin-top: 12px;
-  display: flex;
+  display: inline-flex;
 }
 
 ul.office-details li i {
