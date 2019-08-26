@@ -150,10 +150,20 @@
     .blog-post .post-meta p.text-right{
         font-size: 13px;        
     }
+    
+    /*  Contact  */
+    ul.office-details li i {
+        width: 35px;
+    }
+    ul.office-details li:nth-child(3) i {
+        width: 40px;
+    }
 }
 
 /* s = Small Devices (Tablets)*/
-@media (min-width: 576px) and (max-width: 767px) {}
+@media (min-width: 576px) and (max-width: 767px) {
+    
+}
 
 /* xs = Extra Small Devices (Tablets)*/
 @media (max-width: 575px) {}
