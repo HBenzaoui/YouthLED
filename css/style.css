@@ -903,9 +903,8 @@ ul.social-list li:nth-child(3) a:hover {
 
 #testimonials {
   background: #f4f4f4;
-  padding-bottom: 45px;
+  padding: 0 0 45px 0;
   overflow: visible;
-  /* padding-top: 50px; */
 }
 
 #testimonials .vertical-heading {
