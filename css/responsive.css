@@ -194,6 +194,10 @@
         padding: 90px 0;
     }
     
+    .vertical-heading{
+        text-align: center;
+    }
+    
 }
 
 /* xs = Extra Small Devices (Tablets)*/
