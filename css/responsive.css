@@ -44,9 +44,11 @@
     #home-heading h1 {
         font-size: 31px;
     }
-    #en-youth{
+
+    #en-youth {
         font-size: 31px !important;
     }
+
     #home-text p {
         font-size: 13px;
     }
@@ -135,34 +137,38 @@
         margin: 0 0 0 6px;
         font-size: 35px;
     }
-    
+
     /*  stat  */
-    .stats-item p{
+    .stats-item p {
         line-height: 18px;
-        
+
     }
-    
+
     /*  Blog  */
-    #blog .col-md-8{
-        margin: 0;    
-        padding: 0;   
+    #blog .col-md-8 {
+        margin: 0;
+        padding: 0;
     }
-    .blog-post .post-meta p{
-        line-height: 14px;        
+
+    .blog-post .post-meta p {
+        line-height: 14px;
         display: flex;
         white-space: ;
     }
-    .blog-post .post-meta p img{
-        margin: 0 7px 0 -7px;          
+
+    .blog-post .post-meta p img {
+        margin: 0 7px 0 -7px;
     }
-    .blog-post .post-meta p.text-right{
-        font-size: 13px;        
+
+    .blog-post .post-meta p.text-right {
+        font-size: 13px;
     }
-    
+
     /*  Contact  */
     ul.office-details li i {
         width: 35px;
     }
+
     ul.office-details li:nth-child(3) i {
         width: 40px;
     }
@@ -170,7 +176,8 @@
 
 /* s = Small Devices (Tablets)*/
 @media (min-width: 576px) and (max-width: 767px) {
-        /* Home */
+
+    /* Home */
     #home-heading h1 {
         font-size: 22px;
     }
@@ -180,24 +187,41 @@
         line-height: 18px;
         margin: 8px 2px 30px 2px;
     }
-    #en-youth{
-       font-size: 24px !important; 
+
+    #en-youth {
+        font-size: 24px !important;
     }
+
     /* Geniric */
     .btn-general {
         padding: 8px 25px 6px 25px;
         font-size: 10px;
     }
-    
+
     /*  About  */
-    .content-box-lg{
+    .content-box-lg {
         padding: 90px 0;
     }
-    
-    .vertical-heading{
+
+    .vertical-heading {
         text-align: center;
     }
+
+    .vertical-heading h5 {
+        position: static;
+        transform: rotate(0deg);
+        margin-bottom: 15px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
     
+    .vertical-heading h2{
+        line-height: normal;
+        margin: 0;
+    } 
+
 }
 
 /* xs = Extra Small Devices (Tablets)*/
