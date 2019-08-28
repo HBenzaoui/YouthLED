@@ -248,6 +248,11 @@
         font-size: 18px;
     }
     
+    /*  Team  */
+    #team-left .vertical-heading{
+        min-height: 140px;
+    }
+    
 }
 
 /* xs = Extra Small Devices (Tablets)*/
