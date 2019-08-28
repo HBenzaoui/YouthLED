@@ -44,7 +44,9 @@
     #home-heading h1 {
         font-size: 31px;
     }
-
+    #en-youth{
+        font-size: 31px !important;
+    }
     #home-text p {
         font-size: 13px;
     }
@@ -168,6 +170,29 @@
 
 /* s = Small Devices (Tablets)*/
 @media (min-width: 576px) and (max-width: 767px) {
+        /* Home */
+    #home-heading h1 {
+        font-size: 22px;
+    }
+
+    #home-text p {
+        font-size: 13px;
+        line-height: 18px;
+        margin: 8px 2px 30px 2px;
+    }
+    #en-youth{
+       font-size: 24px !important; 
+    }
+    /* Geniric */
+    .btn-general {
+        padding: 8px 25px 6px 25px;
+        font-size: 10px;
+    }
+    
+    /*  About  */
+    .content-box-lg{
+        padding: 90px 0;
+    }
     
 }
 
