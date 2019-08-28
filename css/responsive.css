@@ -258,6 +258,12 @@
         line-height: 45px;
     }
     
+    /*  Tech statment  */
+    #statment h3{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
 }
 
 /* xs = Extra Small Devices (Tablets)*/
