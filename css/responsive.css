@@ -229,7 +229,12 @@
     #about-right p{
         text-align: center;
     }
-
+    /*  ABout 02  */
+    
+    .content-box-md {
+        padding: 80px 0;
+    }
+    
 }
 
 /* xs = Extra Small Devices (Tablets)*/
