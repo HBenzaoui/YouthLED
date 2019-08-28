@@ -253,6 +253,11 @@
         min-height: 140px;
     }
     
+    .skill h4{
+        font-size: 14px;
+        line-height: 45px;
+    }
+    
 }
 
 /* xs = Extra Small Devices (Tablets)*/
