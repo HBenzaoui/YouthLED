@@ -221,6 +221,14 @@
         line-height: normal;
         margin: 0;
     } 
+    
+    #about-left{
+        margin-bottom: 50px;
+    }
+    
+    #about-right p{
+        text-align: center;
+    }
 
 }
 
