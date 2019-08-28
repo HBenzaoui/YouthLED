@@ -264,6 +264,18 @@
         line-height: 30px;
     }
     
+    /*  Project 01  */
+    .horizontal-heading{
+        margin-bottom: 40px;
+    }
+    
+    .horizontal-heading h2{
+        font-size: 30px;
+    }
+    
+    
+    
+    
 }
 
 /* xs = Extra Small Devices (Tablets)*/
