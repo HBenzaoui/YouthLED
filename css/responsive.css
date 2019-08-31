@@ -330,6 +330,15 @@
     #projects-tabs h3{
         font-size: 28px;
     }
+    
+    /*  Portfolio  */
+    #portfolio {
+        padding-bottom: 0px;
+    }
+    
+    #isotope-filters button{
+        padding-right: 15px;
+    }
 }
 
 /* xs = Extra Small Devices (Tablets)*/
