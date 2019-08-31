@@ -289,6 +289,34 @@
         font-size: 18px;
     }
 
+        /* Projects 02*/
+    .r-tabs-accordion-title {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .r-tabs-accordion-title a {
+        color: #212226;
+        font-family: 'Raleway', sans-serif;
+        font-size: 13px;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    /*  Tab active state  */
+    .r-tabs-accordion-title.r-tabs-state-active a {
+        color: #fac63d;
+        font-weight: 700;
+        padding-bottom: 5px;
+        border-bottom: 3px solid #fac63d;
+        transition: border-bottom 300ms linear;
+        -webkit-transition: border-bottom 300ms linear;
+        -moz-transition: border-bottom 300ms linear;
+        -ms-transition: border-bottom 300ms linear;
+        -o-transition: border-bottom 300ms linear;
+    }
 
 }
 
