@@ -392,24 +392,11 @@
         margin-bottom: 30px;
     }
     
-    #blog .col-md-8 {
-        margin: 0;
-        padding: 0;
+    .blog-post{
+      margin-bottom: 25px;
     }
+    
 
-    .blog-post .post-meta p {
-        line-height: 14px;
-        display: flex;
-        white-space: ;
-    }
-
-    .blog-post .post-meta p img {
-        margin: 0 7px 0 -7px;
-    }
-
-    .blog-post .post-meta p.text-right {
-        font-size: 13px;
-    }
 
     /*  Contact  */
 /*
