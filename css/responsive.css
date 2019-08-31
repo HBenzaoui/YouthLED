@@ -399,7 +399,15 @@
 
 
     /*  Contact  */
-/*
+    #contact-left{
+        text-align: center
+    }
+    .office {
+       margin-bottom: 40px;
+    }
+    
+    
+    
     ul.office-details li i {
         width: 35px;
     }
@@ -407,7 +415,6 @@
     ul.office-details li:nth-child(3) i {
         width: 40px;
     }
-*/
     
     
     
