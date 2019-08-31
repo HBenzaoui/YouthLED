@@ -339,6 +339,48 @@
     #isotope-filters button{
         padding-right: 15px;
     }
+    
+    /*  Testomonial  */
+    #testimonials {
+        padding-top: 45px;
+    }
+    #testimonial-slider {
+       top: 0;
+    }
+    #testimonials .vertical-heading{
+        padding: 0;
+    }
+    .testimonial .row{
+        margin: 0;
+    }
+    .testimonial h3{
+        font-size: 20px;
+    }
+    
+    .testimonial .stars{
+        font-size: 16px;
+        margin-top: 5px;
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
 
 /* xs = Extra Small Devices (Tablets)*/
