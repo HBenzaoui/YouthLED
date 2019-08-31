@@ -216,66 +216,76 @@
         -ms-transform: rotate(0deg);
         -o-transform: rotate(0deg);
     }
-    
-    .vertical-heading h2{
+
+    .vertical-heading h2 {
         line-height: normal;
         margin: 0;
-    } 
-    
-    #about-left{
+    }
+
+    #about-left {
         margin-bottom: 50px;
     }
-    
-    #about-right p{
+
+    #about-right p {
         text-align: center;
     }
-    
+
     /*  ABout 02  */
     .content-box-md {
         padding: 80px 0;
     }
-    
-    .about-item{
+
+    .about-item {
         padding: 55px 30px;
         margin-bottom: 35px;
     }
-    
-    .about-item i{
+
+    .about-item i {
         font-size: 30px;
     }
-    
-    .about-item h3{
+
+    .about-item h3 {
         font-size: 18px;
     }
-    
+
     /*  Team  */
-    #team-left .vertical-heading{
+    #team-left .vertical-heading {
         min-height: 140px;
     }
-    
-    .skill h4{
+
+    .skill h4 {
         font-size: 14px;
         line-height: 45px;
     }
-    
+
     /*  Tech statment  */
-    #statment h3{
+    #statment h3 {
         font-size: 20px;
         line-height: 30px;
     }
-    
+
     /*  Project 01  */
-    .horizontal-heading{
+    .horizontal-heading {
         margin-bottom: 40px;
     }
-    
-    .horizontal-heading h2{
+
+    .horizontal-heading h2 {
         font-size: 30px;
     }
-    
-    
-    
-    
+
+    #projects-01 img {
+        margin: 35px 0;
+    }
+
+    .project{
+        text-align: center ;
+    }
+
+    .project .icon.text-right{
+        text-align: center !important;
+    }
+
+
 }
 
 /* xs = Extra Small Devices (Tablets)*/
