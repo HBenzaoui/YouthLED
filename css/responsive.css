@@ -415,6 +415,10 @@
         display: block;
         margin-bottom: 3px;
     }
+    
+    #contact ul.social-list {
+        margin-bottom: 40px;
+    }
 
     
     
