@@ -317,6 +317,11 @@
         -ms-transition: border-bottom 300ms linear;
         -o-transition: border-bottom 300ms linear;
     }
+    
+    #projects-tabs .tab-bg{
+        text-align: center;
+        padding: 40px 30px;
+    }
 
 }
 
