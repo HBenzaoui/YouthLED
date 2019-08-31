@@ -284,6 +284,10 @@
     .project .icon.text-right{
         text-align: center !important;
     }
+    
+    .project h4{
+        font-size: 18px;
+    }
 
 
 }
