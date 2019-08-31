@@ -322,7 +322,14 @@
         text-align: center;
         padding: 40px 30px;
     }
-
+    
+    #projects-tabs h2{
+        font-size: 40px;
+    }
+    
+    #projects-tabs h3{
+        font-size: 28px;
+    }
 }
 
 /* xs = Extra Small Devices (Tablets)*/
