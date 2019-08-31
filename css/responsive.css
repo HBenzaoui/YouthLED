@@ -406,16 +406,16 @@
        margin-bottom: 40px;
     }
     
-    
-    
+    ul.office-details li  {
+        display: block;
+        margin-top: 25px;
+    }
     ul.office-details li i {
-        width: 35px;
+        width: auto;
+        display: block;
+        margin-bottom: 3px;
     }
 
-    ul.office-details li:nth-child(3) i {
-        width: 40px;
-    }
-    
     
     
     
