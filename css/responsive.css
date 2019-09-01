@@ -174,7 +174,7 @@
     }
 }
 
-/* s = Small Devices (Tablets)*/
+/* s = Small Devices (phones)*/
 @media (min-width: 576px) and (max-width: 767px) {
 
     /* Home */
@@ -420,5 +420,164 @@
     
 }
 
-/* xs = Extra Small Devices (Tablets)*/
-@media (max-width: 575px) {}
+/* xs = Extra Small Devices (small phones)*/
+@media (max-width: 479px) {
+    
+    /* Home */
+    #home-heading h1 {
+        font-size: 18px;
+    }
+
+    #home-text p {
+        font-size: 11px;
+        line-height: 16px;
+        margin: 8px 10px 25px 16px;
+    }
+
+    #en-youth {
+        font-size: 18px !important;
+    } 
+    
+    /* Geniric */
+    .btn-general {
+        padding: 8px 20px 6px 20px;
+        font-size: 9px;
+    }
+    
+    /*  About  */
+    .content-box-lg {
+        padding: 70px 0;
+    }
+    
+    .vertical-heading {
+        text-align: center;
+    }
+    .vertical-heading h2 {
+        font-size: 24px;
+        line-height: normal;
+        margin: 0;
+    }
+    .vertical-heading h5 {
+        position: static;
+        transform: rotate(0deg);
+        margin-bottom: 15px;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+    
+    
+    #about-left {
+        margin-bottom: 30px;
+    }
+
+    #about-right p {
+        text-align: center;
+    }
+    
+        /*  ABout 02  */
+    .content-box-md {
+        padding: 70px 0;
+    }
+
+    .about-item {
+        padding: 40px 20px;
+        margin-bottom: 25px;
+    }
+
+    .about-item i {
+        font-size: 25px;
+    }
+
+    .about-item h3 {
+        font-size: 16px;
+    }
+    
+
+    /*  Team  */
+    #team-left .vertical-heading {
+        min-height: 120px;
+    }
+
+    .skill h4 {
+        font-size: 13px;
+        line-height: 30px;
+    }
+    
+    
+    /*  Tech statment  */
+    #statment h3 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    
+    /*  Project 01  */
+    .horizontal-heading {
+        margin-bottom: 20px;
+    }
+
+    .horizontal-heading h2 {
+        font-size: 25px;
+    }
+
+    #projects-01 img {
+        margin: 25px 0;
+    }
+
+    .project{
+        text-align: center ;
+    }
+
+    .project i{
+        font-size: 30px;
+    }
+
+    .project .icon.text-right{
+        text-align: center !important;
+    }
+    
+    .project h4{
+        font-size: 16px;
+    }
+    
+    .project p{
+        font-size: 12px;
+    }
+    
+    /* Projects 02*/
+    .r-tabs-accordion-title {
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    .r-tabs-accordion-title a {
+        color: #212226;
+        font-family: 'Raleway', sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding: 0;
+        text-decoration: none;
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
