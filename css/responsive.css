@@ -277,19 +277,19 @@
         margin: 35px 0;
     }
 
-    .project{
-        text-align: center ;
+    .project {
+        text-align: center;
     }
 
-    .project .icon.text-right{
+    .project .icon.text-right {
         text-align: center !important;
     }
-    
-    .project h4{
+
+    .project h4 {
         font-size: 18px;
     }
 
-        /* Projects 02*/
+    /* Projects 02*/
     .r-tabs-accordion-title {
         text-align: center;
         margin-bottom: 10px;
@@ -317,112 +317,121 @@
         -ms-transition: border-bottom 300ms linear;
         -o-transition: border-bottom 300ms linear;
     }
-    
-    #projects-tabs .tab-bg{
+
+    #projects-tabs .tab-bg {
         text-align: center;
         padding: 40px 30px;
     }
-    
-    #projects-tabs h2{
+
+    #projects-tabs h2 {
         font-size: 40px;
     }
-    
-    #projects-tabs h3{
+
+    #projects-tabs h3 {
         font-size: 28px;
     }
-    
+
     /*  Portfolio  */
     #portfolio {
         padding-bottom: 0px;
     }
-    
-    #isotope-filters button{
+
+    #isotope-filters button {
         padding-right: 15px;
     }
-    
+
     /*  Testomonial  */
     #testimonials {
         padding-top: 45px;
     }
+
     #testimonial-slider {
-       top: 0;
+        top: 0;
     }
-    #testimonials .vertical-heading{
+
+    #testimonials .vertical-heading {
         padding: 0;
     }
-    .testimonial .row{
+
+    .testimonial .row {
         margin: 0;
     }
-    .testimonial h3{
+
+    .testimonial h3 {
         font-size: 20px;
     }
-    
-    .testimonial .stars{
+
+    .testimonial .stars {
         font-size: 16px;
         margin-top: 5px;
     }
 
-    
+
     /*  Prcing Table */
-    .pricing-table{
+    .pricing-table {
         margin-bottom: 30px;
     }
+
     .pricing-table .price h2 {
         margin: 0 0 0 16px;
         font-size: 28px;
     }
-    
+
 
     /*  stat  */
-    .stats-item  {
+    .stats-item {
         margin-bottom: 20px;
         padding: 25px 5px;
     }
-    .stats-item  i{
-        font-size:30px;
+
+    .stats-item i {
+        font-size: 30px;
     }
+
     .stats-item h3 {
         font-size: 24px;
     }
 
-    
+
     /*  Blog  */
-    #blog-left{
-      text-align: center;
+    #blog-left {
+        text-align: center;
         margin-bottom: 30px;
     }
-    
-    .blog-post{
-      margin-bottom: 25px;
+
+    .blog-post {
+        margin-bottom: 25px;
     }
-    
+
     /*  Contact  */
-    #contact-left{
+    #contact-left {
         text-align: center
     }
+
     .office {
-       margin-bottom: 40px;
+        margin-bottom: 40px;
     }
-    
-    ul.office-details li  {
+
+    ul.office-details li {
         display: block;
         margin-top: 25px;
     }
+
     ul.office-details li i {
         width: auto;
         display: block;
         margin-bottom: 3px;
     }
-    
+
     #contact ul.social-list {
         margin-bottom: 40px;
-    }    
-    
+    }
+
 }
 
 /* xs = Extra Small Devices (small phones)*/
 @media (max-width: 479px) {
-    
+
     /* Home */
     #home-heading h1 {
         font-size: 18px;
@@ -436,27 +445,29 @@
 
     #en-youth {
         font-size: 18px !important;
-    } 
-    
+    }
+
     /* Geniric */
     .btn-general {
         padding: 8px 20px 6px 20px;
         font-size: 9px;
     }
-    
+
     /*  About  */
     .content-box-lg {
         padding: 70px 0;
     }
-    
+
     .vertical-heading {
         text-align: center;
     }
+
     .vertical-heading h2 {
         font-size: 24px;
         line-height: normal;
         margin: 0;
     }
+
     .vertical-heading h5 {
         position: static;
         transform: rotate(0deg);
@@ -466,8 +477,8 @@
         -ms-transform: rotate(0deg);
         -o-transform: rotate(0deg);
     }
-    
-    
+
+
     #about-left {
         margin-bottom: 30px;
     }
@@ -475,8 +486,8 @@
     #about-right p {
         text-align: center;
     }
-    
-        /*  ABout 02  */
+
+    /*  ABout 02  */
     .content-box-md {
         padding: 70px 0;
     }
@@ -493,7 +504,7 @@
     .about-item h3 {
         font-size: 16px;
     }
-    
+
 
     /*  Team  */
     #team-left .vertical-heading {
@@ -504,15 +515,15 @@
         font-size: 13px;
         line-height: 30px;
     }
-    
-    
+
+
     /*  Tech statment  */
     #statment h3 {
         font-size: 16px;
         line-height: 20px;
     }
-    
-    
+
+
     /*  Project 01  */
     .horizontal-heading {
         margin-bottom: 20px;
@@ -526,26 +537,26 @@
         margin: 25px 0;
     }
 
-    .project{
-        text-align: center ;
+    .project {
+        text-align: center;
     }
 
-    .project i{
+    .project i {
         font-size: 30px;
     }
 
-    .project .icon.text-right{
+    .project .icon.text-right {
         text-align: center !important;
     }
-    
-    .project h4{
+
+    .project h4 {
         font-size: 16px;
     }
-    
-    .project p{
+
+    .project p {
         font-size: 12px;
     }
-    
+
     /* Projects 02*/
     .r-tabs-accordion-title {
         text-align: center;
@@ -561,36 +572,48 @@
         padding: 0;
         text-decoration: none;
     }
-    
-        
+
+
     /*  Portfolio  */
     #portfolio {
         padding-bottom: 0px;
     }
-    
+
     #isotope-filters {
         text-align: center;
     }
-    
-    #isotope-filters button{
+
+    #isotope-filters button {
         font-size: 11px;
         padding-right: 12px;
     }
-    
+
+    /*  Testomonial  */
+    #testimonials {
+        padding-top: 30px;
+    }
+
+    #testimonial-slider {
+        top: 0;
+    }
+
+    #testimonials .vertical-heading {
+        padding: 0;
+    }
+
+    .testimonial .row {
+        margin: 0;
+        padding: 0;
+    }
+
+    .testimonial h3 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .testimonial .stars {
+        font-size: 14px;
+        margin: 0;
+    }
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
