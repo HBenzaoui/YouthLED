@@ -568,9 +568,13 @@
         padding-bottom: 0px;
     }
     
+    #isotope-filters {
+        text-align: center;
+    }
+    
     #isotope-filters button{
-        font-size: 10px;
-        padding-right: 15px;
+        font-size: 11px;
+        padding-right: 12px;
     }
     
 }
