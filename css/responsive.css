@@ -562,7 +562,16 @@
         text-decoration: none;
     }
     
+        
+    /*  Portfolio  */
+    #portfolio {
+        padding-bottom: 0px;
+    }
     
+    #isotope-filters button{
+        font-size: 10px;
+        padding-right: 15px;
+    }
     
 }
 
