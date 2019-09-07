@@ -639,4 +639,14 @@
         font-size: 24px;
     }
 
+        /*  Blog  */
+    #blog-left {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .blog-post {
+        margin-bottom: 15px;
+    }
+
 }
