@@ -234,6 +234,13 @@ $(window).on('load', function() {
   marker.addListener('click', function() {
     infowindow.open(map, marker);
   });
+
+  // Resize Function
+  google.maps.event.addDomListener(window, 'resize', function() {
+    var centering = map.getCenter();
+    google.maps.event.trigger(map, 'resize');
+    map.setCenter(centering);
+  });
 });
 
 /*==========================================
