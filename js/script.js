@@ -306,6 +306,6 @@ $(function() {
 $(function() {
   // Show mobile navigation
   $('#mobile-nav-open-btn').click(function() {
-    $('mobile-nav');
+    $('#mobile-nav').css('height', '100%');
   });
 });
