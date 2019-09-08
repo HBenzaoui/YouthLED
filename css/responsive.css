@@ -18,8 +18,9 @@ header .container-fluid {
 }
 
 #mobile-nav {
+  /*  By default mobile menu will be hidden by height = 0%  */
+  height: 0%;
   width: 100%;
-  height: 100%;
   position: fixed;
   z-index: 3;
   top: 0;
