@@ -1467,6 +1467,14 @@ header .container-fluid {
 }
 
 
+/* ScrollSpy active state */
+.white-nav-top #mobile-nav ul.nav>li>a.active {
+  color: #fac63d;
+  font-weight: 500;
+}
+
+
+
 
 
 
