@@ -179,6 +179,9 @@
     
     
     /* Navigation */
+    .navbar{
+        padding: 20px 0;
+    }
     .site-nav-wrapper {
         padding: 0;
         margin: 0;
