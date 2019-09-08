@@ -1397,6 +1397,7 @@ header .container-fluid{
     position: absolute;
     right: 40px;
     top: 8px;
+    display: none;
     
 }
 
