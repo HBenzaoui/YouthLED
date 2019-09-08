@@ -1383,7 +1383,22 @@ ul.navbar-nav>li>a:focus {
 /*==========================================
 |   |   |   | Mobile Menu |   |   |   |
 ==========================================*/
-S
+/*
+header .container-fluid{
+    position: relative;
+}
+*/
+
+#mobile-nav-open-btn{
+    color: #FAC63D;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+    right: 40px;
+    top: 8px;
+    
+}
 
 
 
