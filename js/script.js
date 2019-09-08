@@ -309,8 +309,13 @@ $(function() {
     $('#mobile-nav').css('height', '100%');
   });
 
-  // Show mobile navigation
-  $('#mobile-nav-close-btn').click(function() {
+  // Hide mobile navigation on close btn
+  $('#mobile-nav-close-btn, #mobile-nav a').click(function() {
     $('#mobile-nav').css('height', '0%');
   });
+
+  // // Show mobile navigation
+  // $('.nav-link').click(function() {
+  //   $('#mobile-nav').css('height', '0%');
+  // });
 });
