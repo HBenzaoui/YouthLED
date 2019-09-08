@@ -328,6 +328,7 @@ $(function() {
   new WOW().init();
 });
 
+// Home Animation on page load
 $(window).on('load', function() {
   $('#home-heading-1').addClass('animated fadeInDown');
 });
