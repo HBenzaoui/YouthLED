@@ -1379,3 +1379,13 @@ ul.navbar-nav>li>a:focus {
   color: #fac63d;
   font-weight: 500;
 }
+
+
+/*==========================================
+|   |   |   | Animation |   |   |   |
+==========================================*/
+#home-heading-1 {
+  animation-duration: 1s;
+  animation-delay: .5s;
+  animation-iteration-count: 1;
+}
