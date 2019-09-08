@@ -177,7 +177,8 @@
 /* s = Small Devices (phones)*/
 @media (min-width: 479px) and (max-width: 767px) {
     
-        /* Navigation */
+    
+    /* Navigation */
     .site-nav-wrapper {
         padding: 0;
         margin: 0;
@@ -190,6 +191,10 @@
 
     .site-nav-wrapper .container-fluid {
         padding: 0 40px 0 40px;
+    }
+    
+    #mobile-nav-open-btn{
+        display: block 
     }
 
     /* Home */
