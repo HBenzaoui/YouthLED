@@ -327,3 +327,7 @@ $(function() {
 $(function() {
   new WOW().init();
 });
+
+$(window).on('load', function() {
+  $('#home-heading-1').addClass('animated fadeInDown');
+});
