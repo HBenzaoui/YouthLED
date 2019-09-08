@@ -305,4 +305,7 @@ $(function() {
 ==========================================*/
 $(function() {
   // Show mobile navigation
+  $('#mobile-nav-open-btn').click(function() {
+    $('mobile-nav');
+  });
 });

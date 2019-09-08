@@ -2,96 +2,96 @@
 |   |   |   | Mobile Menu |   |   |   |
 ==========================================*/
 header .container-fluid {
-  position: relative;
+    position: relative;
 }
 
 #mobile-nav-open-btn {
-  color: #FAC63D;
-  font-size: 30px;
-  cursor: pointer;
-  z-index: 2;
-  position: absolute;
-  right: 40px;
-  top: 8px;
-  /*  Hide mobile nav open btn  */
-  display: none;
+    color: #FAC63D;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+    right: 40px;
+    top: 8px;
+    /*  Hide mobile nav open btn  */
+    display: none;
 }
 
 #mobile-nav {
-  /*  By default mobile menu will be hidden by height = 0%  */
-  height: 0%;
-  width: 100%;
-  position: fixed;
-  z-index: 3;
-  top: 0;
-  left: 0;
-  overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.9);
-  transition: all 300ms linear;
-  -webkit-transition: all 300ms linear;
-  -moz-transition: all 300ms linear;
-  -ms-transition: all 300ms linear;
-  -o-transition: all 300ms linear;
+    /*  By default mobile menu will be hidden by height = 0%  */
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
 }
 
 #mobile-nav-close-btn {
-  font-family: "Raleway", sans-serif;
-  font-size: 30px;
-  color: #212226;
-  font-weight: 400;
-  cursor: pointer;
-  position: absolute;
-  top: 9px;
-  right: 13px;
-  transition: .3s;
-  -webkit-transition: .3s;
-  -moz-transition: .3s;
-  -ms-transition: .3s;
-  -o-transition: .3s;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    color: #212226;
+    font-weight: 400;
+    cursor: pointer;
+    position: absolute;
+    top: 9px;
+    right: 13px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
 }
 
 #mobile-nav-content {
-  text-align: center;
-  width: 100%;
-  margin-top: 30px;
-  position: relative;
-  top: 10%;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    position: relative;
+    top: 10%;
 }
 
 #mobile-nav-content ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 
 #mobile-nav ul li {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 #mobile-nav a {
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  color: #212226;
-  font-weight: 400;
-  text-transform: uppercase;
-  display: inline;
-  transition: .3s;
-  -webkit-transition: .3s;
-  -moz-transition: .3s;
-  -ms-transition: .3s;
-  -o-transition: .3s;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    color: #212226;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
 }
 
 #mobile-nav a:hover,
 #mobile-nav a:focus,
 #mobile-nav-close-btn:hover,
 #mobile-nav-close-btn:focus {
-  color: #FAC63D;
-  background: none;
+    color: #FAC63D;
+    background: none;
 }
 
 /*Mobile nav ScrollSpy active state */
 .white-nav-top #mobile-nav ul>li>a.active {
-  color: #fac63d;
-  font-weight: 500;
+    color: #fac63d;
+    font-weight: 500;
 }
 
 /*==========================================
@@ -272,12 +272,13 @@ header .container-fluid {
 
 /* s = Small Devices (phones)*/
 @media (min-width: 479px) and (max-width: 767px) {
-    
-    
+
+
     /* Navigation */
-    .navbar{
+    .navbar {
         padding: 20px 0;
     }
+
     .site-nav-wrapper {
         padding: 0;
         margin: 0;
@@ -291,9 +292,9 @@ header .container-fluid {
     .site-nav-wrapper .container-fluid {
         padding: 0 40px 0 40px;
     }
-    
-    #mobile-nav-open-btn{
-        display: block 
+
+    #mobile-nav-open-btn {
+        display: block
     }
 
     /* Home */
@@ -550,6 +551,7 @@ header .container-fluid {
 
 /* xs = Extra Small Devices (small phones)*/
 @media (max-width: 479px) {
+
     /* Navigation */
     .site-nav-wrapper {
         padding: 0;
@@ -564,9 +566,9 @@ header .container-fluid {
     .site-nav-wrapper .container-fluid {
         padding: 0 30px 0 20px;
     }
-    
-    #mobile-nav-open-btn{
-        display: block 
+
+    #mobile-nav-open-btn {
+        display: block
     }
 
     /* Home */
@@ -752,11 +754,11 @@ header .container-fluid {
         font-size: 14px;
         margin: 0;
     }
-    
+
     .pricing-table {
         margin-bottom: 10px;
     }
-    
+
     .pricing-table .price h2 {
         margin: 0 0 0 16px;
         font-size: 28px;
@@ -776,7 +778,7 @@ header .container-fluid {
         font-size: 24px;
     }
 
-        /*  Blog  */
+    /*  Blog  */
     #blog-left {
         text-align: center;
         margin-bottom: 25px;
