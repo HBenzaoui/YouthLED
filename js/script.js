@@ -57,7 +57,7 @@ $(function() {
           {
             width: $(this).attr('aria-valuenow') + '%'
           },
-          800
+          2000
         );
       });
       this.destroy();
