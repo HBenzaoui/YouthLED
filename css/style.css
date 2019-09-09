@@ -401,12 +401,13 @@ section {
   -o-transition: all 500ms ease-in-out;
 }
 
-.about-item h3 .about-item p {
-  transition: all 300ms linear;
-  -webkit-transition: all 300ms linear;
-  -moz-transition: all 300ms linear;
-  -ms-transition: all 300ms linear;
-  -o-transition: all 300ms linear;
+.about-item h3,
+.about-item p {
+  transition: all 350ms linear;
+  -webkit-transition: all 350ms linear;
+  -moz-transition: all 350ms linear;
+  -ms-transition: all 350ms linear;
+  -o-transition: all 350ms linear;
 }
 
 /*==========================================
