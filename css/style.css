@@ -1316,12 +1316,12 @@ ul.office-details li i {
 footer {
   background: #212226;
   padding: 30px;
-  margin: 0;
 }
 
 footer p {
   color: #fff;
   line-height: 20px;
+  margin: 0;
 }
 
 footer p span {
