@@ -249,7 +249,6 @@ header .container-fluid {
     .blog-post .post-meta p {
         line-height: 14px;
         display: flex;
-        white-space: ;
     }
 
     .blog-post .post-meta p img {

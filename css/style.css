@@ -887,11 +887,11 @@ ul.social-list li:nth-child(3) a:hover {
 /* Hover the overlay */
 .portfolio-item:hover .portfolio-item-overlay {
   opacity: 1;
-  transition: all 0.5 linear;
-  -webkit-transition: all 0.5 linear;
-  -moz-transition: all 0.5 linear;
-  -ms-transition: all 0.5 linear;
-  -o-transition: all 0.5 linear;
+  transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
 }
 
 .portfolio-item:hover .portfolio-item-details h3 {
