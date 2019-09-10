@@ -1199,11 +1199,11 @@ ul.social-list li:nth-child(3) a:hover {
   background: #fff;
   padding: 20px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-  border-radius: 6px;
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  -ms-border-radius: 6px;
-  -o-border-radius: 6px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
 
 .blog-post h4 {
